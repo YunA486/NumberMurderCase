@@ -202,6 +202,7 @@ public class Story {
 		JPanel Room1 = new JPanel();
 		Room1.setBounds(0, 0, 1186, 563);
 		frame.getContentPane().add(Room1);
+		Room1.setVisible(false);
 		Room1.setLayout(null);
 		
 		JPanel Panel7 = new JPanel();
@@ -528,8 +529,8 @@ public class Story {
 		Room1.add(FindRoom1);
 		FindRoom1.setLayout(null);
 		
-		JButton Room1Exit = new JButton("New button");
-		Room1Exit.setBounds(1147, 20, 27, 23);
+		JButton Room1Exit = new JButton("\uB098\uAC00\uAE30");
+		Room1Exit.setBounds(1105, 20, 75, 23);
 		FindRoom1.add(Room1Exit);
 		
 		JLabel lblNewLabel_5 = new JLabel("");
@@ -541,6 +542,7 @@ public class Story {
 		JPanel Room2 = new JPanel();
 		Room2.setBounds(0, 0, 1186, 563);
 		frame.getContentPane().add(Room2);
+		Room2.setVisible(false);
 		Room2.setLayout(null);
 		
 		JPanel Panel27 = new JPanel();
@@ -862,9 +864,8 @@ public class Story {
 		Room2.add(FindRoom2);
 		FindRoom2.setLayout(null);
 		
-		JButton Room2Exit = new JButton("");
-		Room2Exit.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
-		Room2Exit.setBounds(1147, 20, 27, 23);
+		JButton Room2Exit = new JButton("\uB098\uAC00\uAE30");
+		Room2Exit.setBounds(1105, 20, 75, 23);
 		FindRoom2.add(Room2Exit);
 		
 		JLabel lblNewLabel_7 = new JLabel("");
@@ -875,7 +876,1388 @@ public class Story {
 		JPanel Room3 = new JPanel();
 		Room3.setBounds(0, 0, 1186, 563);
 		frame.getContentPane().add(Room3);
+		Room3.setVisible(false);
 		Room3.setLayout(null);
+		
+		JPanel Panel48 = new JPanel();
+		Panel48.setLayout(null);
+		Panel48.setBounds(0, 0, 1186, 563);
+		Room3.add(Panel48);
+		
+		JButton NextBtn48 = new JButton("");
+		NextBtn48.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn48.setBounds(1147, 20, 27, 23);
+		Panel48.add(NextBtn48);
+		
+		JLabel lblNewLabel_6_2 = new JLabel("");
+		lblNewLabel_6_2.setIcon(new ImageIcon(Story.class.getResource("/image/48.png")));
+		lblNewLabel_6_2.setBounds(0, 0, 1186, 563);
+		Panel48.add(lblNewLabel_6_2);
+		
+		JPanel Panel49 = new JPanel();
+		Panel49.setLayout(null);
+		Panel49.setBounds(0, 0, 1186, 563);
+		Room3.add(Panel49);
+		
+		JButton NextBtn49 = new JButton("");
+		NextBtn49.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn49.setBounds(1147, 20, 27, 23);
+		Panel49.add(NextBtn49);
+		
+		JLabel lblNewLabel_6_2_1 = new JLabel("");
+		lblNewLabel_6_2_1.setIcon(new ImageIcon(Story.class.getResource("/image/49.png")));
+		lblNewLabel_6_2_1.setBounds(0, 0, 1186, 563);
+		Panel49.add(lblNewLabel_6_2_1);
+		
+		JPanel Panel50 = new JPanel();
+		Panel50.setLayout(null);
+		Panel50.setBounds(0, 0, 1186, 563);
+		Room3.add(Panel50);
+		
+		JButton NextBtn50 = new JButton("");
+		NextBtn50.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn50.setBounds(1147, 20, 27, 23);
+		Panel50.add(NextBtn50);
+		
+		JLabel lblNewLabel_6_2_2 = new JLabel("");
+		lblNewLabel_6_2_2.setIcon(new ImageIcon(Story.class.getResource("/image/50.png")));
+		lblNewLabel_6_2_2.setBounds(0, 0, 1186, 563);
+		Panel50.add(lblNewLabel_6_2_2);
+		
+		JPanel Panel51 = new JPanel();
+		Panel51.setLayout(null);
+		Panel51.setBounds(0, 0, 1186, 563);
+		Room3.add(Panel51);
+		
+		JButton NextBtn51 = new JButton("");
+		NextBtn51.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn51.setBounds(1147, 20, 27, 23);
+		Panel51.add(NextBtn51);
+		
+		JLabel lblNewLabel_6_2_3 = new JLabel("");
+		lblNewLabel_6_2_3.setIcon(new ImageIcon(Story.class.getResource("/image/51.png")));
+		lblNewLabel_6_2_3.setBounds(0, 0, 1186, 563);
+		Panel51.add(lblNewLabel_6_2_3);
+		
+		JPanel Panel52 = new JPanel();
+		Panel52.setLayout(null);
+		Panel52.setBounds(0, 0, 1186, 563);
+		Room3.add(Panel52);
+		
+		JButton NextBtn52 = new JButton("");
+		NextBtn52.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn52.setBounds(1147, 20, 27, 23);
+		Panel52.add(NextBtn52);
+		
+		JLabel lblNewLabel_6_2_4 = new JLabel("");
+		lblNewLabel_6_2_4.setIcon(new ImageIcon(Story.class.getResource("/image/52.png")));
+		lblNewLabel_6_2_4.setBounds(0, 0, 1186, 563);
+		Panel52.add(lblNewLabel_6_2_4);
+		
+		JPanel Panel53 = new JPanel();
+		Panel53.setLayout(null);
+		Panel53.setBounds(0, 0, 1186, 563);
+		Room3.add(Panel53);
+		
+		JButton NextBtn53 = new JButton("");
+		NextBtn53.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn53.setBounds(1147, 20, 27, 23);
+		Panel53.add(NextBtn53);
+		
+		JLabel lblNewLabel_6_2_5 = new JLabel("");
+		lblNewLabel_6_2_5.setIcon(new ImageIcon(Story.class.getResource("/image/53.png")));
+		lblNewLabel_6_2_5.setBounds(0, 0, 1186, 563);
+		Panel53.add(lblNewLabel_6_2_5);
+		
+		JPanel Panel54 = new JPanel();
+		Panel54.setLayout(null);
+		Panel54.setBounds(0, 0, 1186, 563);
+		Room3.add(Panel54);
+		
+		JButton NextBtn54 = new JButton("");
+		NextBtn54.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn54.setBounds(1147, 20, 27, 23);
+		Panel54.add(NextBtn54);
+		
+		JLabel lblNewLabel_6_2_6 = new JLabel("");
+		lblNewLabel_6_2_6.setIcon(new ImageIcon(Story.class.getResource("/image/54.png")));
+		lblNewLabel_6_2_6.setBounds(0, 0, 1186, 563);
+		Panel54.add(lblNewLabel_6_2_6);
+		
+		JPanel Panel55 = new JPanel();
+		Panel55.setLayout(null);
+		Panel55.setBounds(0, 0, 1186, 563);
+		Room3.add(Panel55);
+		
+		JButton NextBtn55 = new JButton("");
+		NextBtn55.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn55.setBounds(1147, 20, 27, 23);
+		Panel55.add(NextBtn55);
+		
+		JLabel lblNewLabel_6_2_7 = new JLabel("");
+		lblNewLabel_6_2_7.setIcon(new ImageIcon(Story.class.getResource("/image/55.png")));
+		lblNewLabel_6_2_7.setBounds(0, 0, 1186, 563);
+		Panel55.add(lblNewLabel_6_2_7);
+		
+		JPanel Panel56 = new JPanel();
+		Panel56.setLayout(null);
+		Panel56.setBounds(0, 0, 1186, 563);
+		Room3.add(Panel56);
+		
+		JButton NextBtn56 = new JButton("");
+		NextBtn56.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn56.setBounds(1147, 20, 27, 23);
+		Panel56.add(NextBtn56);
+		
+		JLabel lblNewLabel_6_2_8 = new JLabel("");
+		lblNewLabel_6_2_8.setIcon(new ImageIcon(Story.class.getResource("/image/56.png")));
+		lblNewLabel_6_2_8.setBounds(0, 0, 1186, 563);
+		Panel56.add(lblNewLabel_6_2_8);
+		
+		JPanel Panel57 = new JPanel();
+		Panel57.setLayout(null);
+		Panel57.setBounds(0, 0, 1186, 563);
+		Room3.add(Panel57);
+		
+		JButton NextBtn57 = new JButton("");
+		NextBtn57.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn57.setBounds(1147, 20, 27, 23);
+		Panel57.add(NextBtn57);
+		
+		JLabel lblNewLabel_6_2_9 = new JLabel("");
+		lblNewLabel_6_2_9.setIcon(new ImageIcon(Story.class.getResource("/image/57.png")));
+		lblNewLabel_6_2_9.setBounds(0, 0, 1186, 563);
+		Panel57.add(lblNewLabel_6_2_9);
+		
+		JPanel Panel58 = new JPanel();
+		Panel58.setLayout(null);
+		Panel58.setBounds(0, 0, 1186, 563);
+		Room3.add(Panel58);
+		
+		JButton NextBtn58 = new JButton("");
+		NextBtn58.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn58.setBounds(1147, 20, 27, 23);
+		Panel58.add(NextBtn58);
+		
+		JLabel lblNewLabel_6_2_10 = new JLabel("");
+		lblNewLabel_6_2_10.setIcon(new ImageIcon(Story.class.getResource("/image/58.png")));
+		lblNewLabel_6_2_10.setBounds(0, 0, 1186, 563);
+		Panel58.add(lblNewLabel_6_2_10);
+		
+		JPanel Panel59 = new JPanel();
+		Panel59.setLayout(null);
+		Panel59.setBounds(0, 0, 1186, 563);
+		Room3.add(Panel59);
+		
+		JButton NextBtn59 = new JButton("");
+		NextBtn59.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn59.setBounds(1147, 20, 27, 23);
+		Panel59.add(NextBtn59);
+		
+		JLabel lblNewLabel_6_2_11 = new JLabel("");
+		lblNewLabel_6_2_11.setIcon(new ImageIcon(Story.class.getResource("/image/59.png")));
+		lblNewLabel_6_2_11.setBounds(0, 0, 1186, 563);
+		Panel59.add(lblNewLabel_6_2_11);
+		
+		JPanel Panel60 = new JPanel();
+		Panel60.setLayout(null);
+		Panel60.setBounds(0, 0, 1186, 563);
+		Room3.add(Panel60);
+		
+		JButton NextBtn60 = new JButton("");
+		NextBtn60.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn60.setBounds(1147, 20, 27, 23);
+		Panel60.add(NextBtn60);
+		
+		JLabel lblNewLabel_6_2_12 = new JLabel("");
+		lblNewLabel_6_2_12.setIcon(new ImageIcon(Story.class.getResource("/image/60.png")));
+		lblNewLabel_6_2_12.setBounds(0, 0, 1186, 563);
+		Panel60.add(lblNewLabel_6_2_12);
+		
+		JPanel Panel61 = new JPanel();
+		Panel61.setLayout(null);
+		Panel61.setBounds(0, 0, 1186, 563);
+		Room3.add(Panel61);
+		
+		JButton NextBtn61 = new JButton("");
+		NextBtn61.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn61.setBounds(1147, 20, 27, 23);
+		Panel61.add(NextBtn61);
+		
+		JLabel lblNewLabel_6_2_13 = new JLabel("");
+		lblNewLabel_6_2_13.setIcon(new ImageIcon(Story.class.getResource("/image/61.png")));
+		lblNewLabel_6_2_13.setBounds(0, 0, 1186, 563);
+		Panel61.add(lblNewLabel_6_2_13);
+		
+		JPanel Panel62 = new JPanel();
+		Panel62.setLayout(null);
+		Panel62.setBounds(0, 0, 1186, 563);
+		Room3.add(Panel62);
+		
+		JButton NextBtn62 = new JButton("");
+		NextBtn62.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn62.setBounds(1147, 20, 27, 23);
+		Panel62.add(NextBtn62);
+		
+		JLabel lblNewLabel_6_2_14 = new JLabel("");
+		lblNewLabel_6_2_14.setIcon(new ImageIcon(Story.class.getResource("/image/62.png")));
+		lblNewLabel_6_2_14.setBounds(0, 0, 1186, 563);
+		Panel62.add(lblNewLabel_6_2_14);
+		
+		JPanel FindRoom3 = new JPanel();
+		FindRoom3.setLayout(null);
+		FindRoom3.setBounds(0, 0, 1186, 563);
+		Room3.add(FindRoom3);
+		
+		JButton Room3Exit = new JButton("\uB098\uAC00\uAE30");
+		Room3Exit.setBounds(1105, 20, 75, 23);
+		FindRoom3.add(Room3Exit);
+		
+		JLabel lblNewLabel_7_1 = new JLabel("");
+		lblNewLabel_7_1.setIcon(new ImageIcon(Story.class.getResource("/image/SpecialRoom 1.png")));
+		lblNewLabel_7_1.setBounds(0, 0, 1186, 563);
+		FindRoom3.add(lblNewLabel_7_1);
+		
+		JPanel Room4 = new JPanel();
+		Room4.setLayout(null);
+		Room4.setBounds(0, 0, 1186, 563);
+		Room4.setVisible(false);
+		frame.getContentPane().add(Room4);
+		
+		JPanel Panel115 = new JPanel();
+		Panel115.setLayout(null);
+		Panel115.setBounds(0, 0, 1186, 563);
+		Room4.add(Panel115);
+		
+		JButton NextBtn115 = new JButton("");
+		NextBtn115.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn115.setBounds(1147, 20, 27, 23);
+		Panel115.add(NextBtn115);
+		
+		JLabel lblNewLabel_6_2_14_1 = new JLabel("");
+		lblNewLabel_6_2_14_1.setIcon(new ImageIcon(Story.class.getResource("/image/115.png")));
+		lblNewLabel_6_2_14_1.setBounds(0, 0, 1186, 563);
+		Panel115.add(lblNewLabel_6_2_14_1);
+		
+		JPanel Panel116 = new JPanel();
+		Panel116.setLayout(null);
+		Panel116.setBounds(0, 0, 1186, 563);
+		Room4.add(Panel116);
+		
+		JButton NextBtn116 = new JButton("");
+		NextBtn116.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn116.setBounds(1147, 20, 27, 23);
+		Panel116.add(NextBtn116);
+		
+		JLabel lblNewLabel_6_2_14_1_1 = new JLabel("");
+		lblNewLabel_6_2_14_1_1.setIcon(new ImageIcon(Story.class.getResource("/image/116.png")));
+		lblNewLabel_6_2_14_1_1.setBounds(0, 0, 1186, 563);
+		Panel116.add(lblNewLabel_6_2_14_1_1);
+		
+		JPanel Panel117 = new JPanel();
+		Panel117.setLayout(null);
+		Panel117.setBounds(0, 0, 1186, 563);
+		Room4.add(Panel117);
+		
+		JButton NextBtn117 = new JButton("");
+		NextBtn117.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn117.setBounds(1147, 20, 27, 23);
+		Panel117.add(NextBtn117);
+		
+		JLabel lblNewLabel_6_2_14_1_2 = new JLabel("");
+		lblNewLabel_6_2_14_1_2.setIcon(new ImageIcon(Story.class.getResource("/image/117.png")));
+		lblNewLabel_6_2_14_1_2.setBounds(0, 0, 1186, 563);
+		Panel117.add(lblNewLabel_6_2_14_1_2);
+		
+		JPanel Panel118 = new JPanel();
+		Panel118.setLayout(null);
+		Panel118.setBounds(0, 0, 1186, 563);
+		Room4.add(Panel118);
+		
+		JButton NextBtn118 = new JButton("");
+		NextBtn118.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn118.setBounds(1147, 20, 27, 23);
+		Panel118.add(NextBtn118);
+		
+		JLabel lblNewLabel_6_2_14_1_4 = new JLabel("");
+		lblNewLabel_6_2_14_1_4.setIcon(new ImageIcon(Story.class.getResource("/image/118.png")));
+		lblNewLabel_6_2_14_1_4.setBounds(0, 0, 1186, 563);
+		Panel118.add(lblNewLabel_6_2_14_1_4);
+		
+		JPanel Panel119 = new JPanel();
+		Panel119.setLayout(null);
+		Panel119.setBounds(0, 0, 1186, 563);
+		Room4.add(Panel119);
+		
+		JButton NextBtn119 = new JButton("");
+		NextBtn119.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn119.setBounds(1147, 20, 27, 23);
+		Panel119.add(NextBtn119);
+		
+		JLabel lblNewLabel_6_2_14_1_3 = new JLabel("");
+		lblNewLabel_6_2_14_1_3.setIcon(new ImageIcon(Story.class.getResource("/image/119.png")));
+		lblNewLabel_6_2_14_1_3.setBounds(0, 0, 1186, 563);
+		Panel119.add(lblNewLabel_6_2_14_1_3);
+		
+		JPanel FindRoom4 = new JPanel();
+		FindRoom4.setLayout(null);
+		FindRoom4.setBounds(0, 0, 1186, 563);
+		Room4.add(FindRoom4);
+		
+		JButton Room4Exit = new JButton("\uB098\uAC00\uAE30");
+		Room4Exit.setBounds(1105, 20, 75, 23);
+		FindRoom4.add(Room4Exit);
+		
+		JLabel lblNewLabel_7_1_1 = new JLabel("");
+		lblNewLabel_7_1_1.setIcon(new ImageIcon(Story.class.getResource("/image/SpecialRoom 1.png")));
+		lblNewLabel_7_1_1.setBounds(0, 0, 1186, 563);
+		FindRoom4.add(lblNewLabel_7_1_1);
+		
+		JPanel Room5 = new JPanel();
+		Room5.setLayout(null);
+		Room5.setBounds(0, 0, 1186, 563);
+		Room5.setVisible(false);
+		frame.getContentPane().add(Room5);
+		
+		JPanel Panel63 = new JPanel();
+		Panel63.setLayout(null);
+		Panel63.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel63);
+		
+		JButton NextBtn63 = new JButton("");
+		NextBtn63.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn63.setBounds(1147, 20, 27, 23);
+		Panel63.add(NextBtn63);
+		
+		JLabel lblNewLabel_6_1_12_7_1 = new JLabel("");
+		lblNewLabel_6_1_12_7_1.setIcon(new ImageIcon(Story.class.getResource("/image/63.png")));
+		lblNewLabel_6_1_12_7_1.setBounds(0, 0, 1186, 563);
+		Panel63.add(lblNewLabel_6_1_12_7_1);
+		
+		JPanel Panel64 = new JPanel();
+		Panel64.setLayout(null);
+		Panel64.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel64);
+		
+		JButton NextBtn64 = new JButton("");
+		NextBtn64.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn64.setBounds(1147, 20, 27, 23);
+		Panel64.add(NextBtn64);
+		
+		JLabel lblNewLabel_6_1_12_7_1_1 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_1.setIcon(new ImageIcon(Story.class.getResource("/image/64.png")));
+		lblNewLabel_6_1_12_7_1_1.setBounds(0, 0, 1186, 563);
+		Panel64.add(lblNewLabel_6_1_12_7_1_1);
+		
+		JPanel Panel65 = new JPanel();
+		Panel65.setLayout(null);
+		Panel65.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel65);
+		
+		JButton NextBtn65 = new JButton("");
+		NextBtn65.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn65.setBounds(1147, 20, 27, 23);
+		Panel65.add(NextBtn65);
+		
+		JLabel lblNewLabel_6_1_12_7_1_2 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_2.setIcon(new ImageIcon(Story.class.getResource("/image/65.png")));
+		lblNewLabel_6_1_12_7_1_2.setBounds(0, 0, 1186, 563);
+		Panel65.add(lblNewLabel_6_1_12_7_1_2);
+		
+		JPanel Panel66 = new JPanel();
+		Panel66.setLayout(null);
+		Panel66.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel66);
+		
+		JButton NextBtn66 = new JButton("");
+		NextBtn66.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn66.setBounds(1147, 20, 27, 23);
+		Panel66.add(NextBtn66);
+		
+		JLabel lblNewLabel_6_1_12_7_1_3 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_3.setIcon(new ImageIcon(Story.class.getResource("/image/66.png")));
+		lblNewLabel_6_1_12_7_1_3.setBounds(0, 0, 1186, 563);
+		Panel66.add(lblNewLabel_6_1_12_7_1_3);
+		
+		JPanel Panel67 = new JPanel();
+		Panel67.setLayout(null);
+		Panel67.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel67);
+		
+		JButton NextBtn67 = new JButton("");
+		NextBtn67.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn67.setBounds(1147, 20, 27, 23);
+		Panel67.add(NextBtn67);
+		
+		JLabel lblNewLabel_6_1_12_7_1_4 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_4.setIcon(new ImageIcon(Story.class.getResource("/image/67.png")));
+		lblNewLabel_6_1_12_7_1_4.setBounds(0, 0, 1186, 563);
+		Panel67.add(lblNewLabel_6_1_12_7_1_4);
+		
+		JPanel Panel68 = new JPanel();
+		Panel68.setLayout(null);
+		Panel68.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel68);
+		
+		JButton NextBtn68 = new JButton("");
+		NextBtn68.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn68.setBounds(1147, 20, 27, 23);
+		Panel68.add(NextBtn68);
+		
+		JLabel lblNewLabel_6_1_12_7_1_5 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_5.setIcon(new ImageIcon(Story.class.getResource("/image/68.png")));
+		lblNewLabel_6_1_12_7_1_5.setBounds(0, 0, 1186, 563);
+		Panel68.add(lblNewLabel_6_1_12_7_1_5);
+		
+		JPanel Panel69 = new JPanel();
+		Panel69.setLayout(null);
+		Panel69.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel69);
+		
+		JButton NextBtn69 = new JButton("");
+		NextBtn69.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn69.setBounds(1147, 20, 27, 23);
+		Panel69.add(NextBtn69);
+		
+		JLabel lblNewLabel_6_1_12_7_1_6 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_6.setIcon(new ImageIcon(Story.class.getResource("/image/69.png")));
+		lblNewLabel_6_1_12_7_1_6.setBounds(0, 0, 1186, 563);
+		Panel69.add(lblNewLabel_6_1_12_7_1_6);
+		
+		JPanel Panel70 = new JPanel();
+		Panel70.setLayout(null);
+		Panel70.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel70);
+		
+		JButton NextBtn70 = new JButton("");
+		NextBtn70.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn70.setBounds(1147, 20, 27, 23);
+		Panel70.add(NextBtn70);
+		
+		JLabel lblNewLabel_6_1_12_7_1_7 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_7.setIcon(new ImageIcon(Story.class.getResource("/image/70.png")));
+		lblNewLabel_6_1_12_7_1_7.setBounds(0, 0, 1186, 563);
+		Panel70.add(lblNewLabel_6_1_12_7_1_7);
+		
+		JPanel Panel71 = new JPanel();
+		Panel71.setLayout(null);
+		Panel71.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel71);
+		
+		JButton NextBtn71 = new JButton("");
+		NextBtn71.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn71.setBounds(1147, 20, 27, 23);
+		Panel71.add(NextBtn71);
+		
+		JLabel lblNewLabel_6_1_12_7_1_8 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_8.setIcon(new ImageIcon(Story.class.getResource("/image/71.png")));
+		lblNewLabel_6_1_12_7_1_8.setBounds(0, 0, 1186, 563);
+		Panel71.add(lblNewLabel_6_1_12_7_1_8);
+		
+		JPanel Panel72 = new JPanel();
+		Panel72.setLayout(null);
+		Panel72.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel72);
+		
+		JButton NextBtn72 = new JButton("");
+		NextBtn72.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn72.setBounds(1147, 20, 27, 23);
+		Panel72.add(NextBtn72);
+		
+		JLabel lblNewLabel_6_1_12_7_1_9 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_9.setIcon(new ImageIcon(Story.class.getResource("/image/72.png")));
+		lblNewLabel_6_1_12_7_1_9.setBounds(0, 0, 1186, 563);
+		Panel72.add(lblNewLabel_6_1_12_7_1_9);
+		
+		JPanel Panel73 = new JPanel();
+		Panel73.setLayout(null);
+		Panel73.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel73);
+		
+		JButton NextBtn73 = new JButton("");
+		NextBtn73.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn73.setBounds(1147, 20, 27, 23);
+		Panel73.add(NextBtn73);
+		
+		JLabel lblNewLabel_6_1_12_7_1_10 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_10.setIcon(new ImageIcon(Story.class.getResource("/image/73.png")));
+		lblNewLabel_6_1_12_7_1_10.setBounds(0, 0, 1186, 563);
+		Panel73.add(lblNewLabel_6_1_12_7_1_10);
+		
+		JPanel Panel74 = new JPanel();
+		Panel74.setLayout(null);
+		Panel74.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel74);
+		
+		JButton NextBtn74 = new JButton("");
+		NextBtn74.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn74.setBounds(1147, 20, 27, 23);
+		Panel74.add(NextBtn74);
+		
+		JLabel lblNewLabel_6_1_12_7_1_11 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_11.setIcon(new ImageIcon(Story.class.getResource("/image/74.png")));
+		lblNewLabel_6_1_12_7_1_11.setBounds(0, 0, 1186, 563);
+		Panel74.add(lblNewLabel_6_1_12_7_1_11);
+		
+		JPanel Panel75 = new JPanel();
+		Panel75.setLayout(null);
+		Panel75.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel75);
+		
+		JButton NextBtn75 = new JButton("");
+		NextBtn75.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn75.setBounds(1147, 20, 27, 23);
+		Panel75.add(NextBtn75);
+		
+		JLabel lblNewLabel_6_1_12_7_1_12 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_12.setIcon(new ImageIcon(Story.class.getResource("/image/75.png")));
+		lblNewLabel_6_1_12_7_1_12.setBounds(0, 0, 1186, 563);
+		Panel75.add(lblNewLabel_6_1_12_7_1_12);
+		
+		JPanel Panel76 = new JPanel();
+		Panel76.setLayout(null);
+		Panel76.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel76);
+		
+		JButton NextBtn76 = new JButton("");
+		NextBtn76.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn76.setBounds(1147, 20, 27, 23);
+		Panel76.add(NextBtn76);
+		
+		JLabel lblNewLabel_6_1_12_7_1_13 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_13.setIcon(new ImageIcon(Story.class.getResource("/image/76.png")));
+		lblNewLabel_6_1_12_7_1_13.setBounds(0, 0, 1186, 563);
+		Panel76.add(lblNewLabel_6_1_12_7_1_13);
+		
+		JPanel Panel77 = new JPanel();
+		Panel77.setLayout(null);
+		Panel77.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel77);
+		
+		JButton NextBtn77 = new JButton("");
+		NextBtn77.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn77.setBounds(1147, 20, 27, 23);
+		Panel77.add(NextBtn77);
+		
+		JLabel lblNewLabel_6_1_12_7_1_14 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_14.setIcon(new ImageIcon(Story.class.getResource("/image/77.png")));
+		lblNewLabel_6_1_12_7_1_14.setBounds(0, 0, 1186, 563);
+		Panel77.add(lblNewLabel_6_1_12_7_1_14);
+		
+		JPanel Panel78 = new JPanel();
+		Panel78.setLayout(null);
+		Panel78.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel78);
+		
+		JButton NextBtn78 = new JButton("");
+		NextBtn78.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn78.setBounds(1147, 20, 27, 23);
+		Panel78.add(NextBtn78);
+		
+		JLabel lblNewLabel_6_1_12_7_1_15 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_15.setIcon(new ImageIcon(Story.class.getResource("/image/78.png")));
+		lblNewLabel_6_1_12_7_1_15.setBounds(0, 0, 1186, 563);
+		Panel78.add(lblNewLabel_6_1_12_7_1_15);
+		
+		JPanel Panel79 = new JPanel();
+		Panel79.setLayout(null);
+		Panel79.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel79);
+		
+		JButton NextBtn79 = new JButton("");
+		NextBtn79.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn79.setBounds(1147, 20, 27, 23);
+		Panel79.add(NextBtn79);
+		
+		JLabel lblNewLabel_6_1_12_7_1_16 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_16.setIcon(new ImageIcon(Story.class.getResource("/image/79.png")));
+		lblNewLabel_6_1_12_7_1_16.setBounds(0, 0, 1186, 563);
+		Panel79.add(lblNewLabel_6_1_12_7_1_16);
+		
+		JPanel Panel80 = new JPanel();
+		Panel80.setLayout(null);
+		Panel80.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel80);
+		
+		JButton NextBtn80 = new JButton("");
+		NextBtn80.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn80.setBounds(1147, 20, 27, 23);
+		Panel80.add(NextBtn80);
+		
+		JLabel lblNewLabel_6_1_12_7_1_17 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_17.setIcon(new ImageIcon(Story.class.getResource("/image/80.png")));
+		lblNewLabel_6_1_12_7_1_17.setBounds(0, 0, 1186, 563);
+		Panel80.add(lblNewLabel_6_1_12_7_1_17);
+		
+		JPanel Panel81 = new JPanel();
+		Panel81.setLayout(null);
+		Panel81.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel81);
+		
+		JButton NextBtn81 = new JButton("");
+		NextBtn81.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn81.setBounds(1147, 20, 27, 23);
+		Panel81.add(NextBtn81);
+		
+		JLabel lblNewLabel_6_1_12_7_1_18 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_18.setIcon(new ImageIcon(Story.class.getResource("/image/81.png")));
+		lblNewLabel_6_1_12_7_1_18.setBounds(0, 0, 1186, 563);
+		Panel81.add(lblNewLabel_6_1_12_7_1_18);
+		
+		JPanel Panel82 = new JPanel();
+		Panel82.setLayout(null);
+		Panel82.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel82);
+		
+		JButton NextBtn82 = new JButton("");
+		NextBtn82.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn82.setBounds(1147, 20, 27, 23);
+		Panel82.add(NextBtn82);
+		
+		JLabel lblNewLabel_6_1_12_7_1_19 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_19.setIcon(new ImageIcon(Story.class.getResource("/image/82.png")));
+		lblNewLabel_6_1_12_7_1_19.setBounds(0, 0, 1186, 563);
+		Panel82.add(lblNewLabel_6_1_12_7_1_19);
+		
+		JPanel Panel83 = new JPanel();
+		Panel83.setLayout(null);
+		Panel83.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel83);
+		
+		JButton NextBtn83 = new JButton("");
+		NextBtn83.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn83.setBounds(1147, 20, 27, 23);
+		Panel83.add(NextBtn83);
+		
+		JLabel lblNewLabel_6_1_12_7_1_20 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_20.setIcon(new ImageIcon(Story.class.getResource("/image/83.png")));
+		lblNewLabel_6_1_12_7_1_20.setBounds(0, 0, 1186, 563);
+		Panel83.add(lblNewLabel_6_1_12_7_1_20);
+		
+		JPanel Panel84 = new JPanel();
+		Panel84.setLayout(null);
+		Panel84.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel84);
+		
+		JButton NextBtn84 = new JButton("");
+		NextBtn84.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn84.setBounds(1147, 20, 27, 23);
+		Panel84.add(NextBtn84);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21.setIcon(new ImageIcon(Story.class.getResource("/image/84.png")));
+		lblNewLabel_6_1_12_7_1_21.setBounds(0, 0, 1186, 563);
+		Panel84.add(lblNewLabel_6_1_12_7_1_21);
+		
+		JPanel Panel85 = new JPanel();
+		Panel85.setLayout(null);
+		Panel85.setBounds(0, 0, 1186, 563);
+		Room5.add(Panel85);
+		
+		JButton NextBtn85 = new JButton("");
+		NextBtn85.setBounds(1147, 20, 27, 23);
+		Panel85.add(NextBtn85);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1.setIcon(new ImageIcon(Story.class.getResource("/image/85.png")));
+		lblNewLabel_6_1_12_7_1_21_1.setBounds(0, 0, 1186, 563);
+		Panel85.add(lblNewLabel_6_1_12_7_1_21_1);
+		
+		JPanel FindRoom5 = new JPanel();
+		FindRoom5.setLayout(null);
+		FindRoom5.setBounds(0, 0, 1186, 563);
+		Room5.add(FindRoom5);
+		
+		JButton Room5Exit = new JButton("\uB098\uAC00\uAE30");
+		Room5Exit.setBounds(1105, 20, 75, 23);
+		FindRoom5.add(Room5Exit);
+		
+		JLabel lblNewLabel_7_2 = new JLabel("");
+		lblNewLabel_7_2.setIcon(new ImageIcon(Story.class.getResource("/image/SpecialRoom 1.png")));
+		lblNewLabel_7_2.setBounds(0, 0, 1186, 563);
+		FindRoom5.add(lblNewLabel_7_2);
+		
+		JPanel Room6 = new JPanel();
+		Room6.setBounds(0, 0, 1186, 563);
+		Room6.setVisible(false);
+		frame.getContentPane().add(Room6);
+		Room6.setLayout(null);
+		
+		JPanel Panel86 = new JPanel();
+		Panel86.setLayout(null);
+		Panel86.setBounds(0, 0, 1186, 563);
+		Room6.add(Panel86);
+		
+		JButton NextBtn86 = new JButton("");
+		NextBtn86.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn86.setBounds(1147, 20, 27, 23);
+		Panel86.add(NextBtn86);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1.setIcon(new ImageIcon(Story.class.getResource("/image/63.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1.setBounds(0, 0, 1186, 563);
+		Panel86.add(lblNewLabel_6_1_12_7_1_21_1_1);
+		
+		JPanel Panel87 = new JPanel();
+		Panel87.setLayout(null);
+		Panel87.setBounds(0, 0, 1186, 563);
+		Room6.add(Panel87);
+		
+		JButton NextBtn87 = new JButton("");
+		NextBtn87.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn87.setBounds(1147, 20, 27, 23);
+		Panel87.add(NextBtn87);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_1 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_1.setIcon(new ImageIcon(Story.class.getResource("/image/87.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_1.setBounds(0, 0, 1186, 563);
+		Panel87.add(lblNewLabel_6_1_12_7_1_21_1_1_1);
+		
+		JPanel Panel88 = new JPanel();
+		Panel88.setLayout(null);
+		Panel88.setBounds(0, 0, 1186, 563);
+		Room6.add(Panel88);
+		
+		JButton NextBtn88 = new JButton("");
+		NextBtn88.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn88.setBounds(1147, 20, 27, 23);
+		Panel88.add(NextBtn88);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_2 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_2.setIcon(new ImageIcon(Story.class.getResource("/image/88.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_2.setBounds(0, 0, 1186, 563);
+		Panel88.add(lblNewLabel_6_1_12_7_1_21_1_1_2);
+		
+		JPanel Panel89 = new JPanel();
+		Panel89.setLayout(null);
+		Panel89.setBounds(0, 0, 1186, 563);
+		Room6.add(Panel89);
+		
+		JButton NextBtn89 = new JButton("");
+		NextBtn89.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn89.setBounds(1147, 20, 27, 23);
+		Panel89.add(NextBtn89);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_3 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_3.setIcon(new ImageIcon(Story.class.getResource("/image/89.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_3.setBounds(0, 0, 1186, 563);
+		Panel89.add(lblNewLabel_6_1_12_7_1_21_1_1_3);
+		
+		JPanel Panel90 = new JPanel();
+		Panel90.setLayout(null);
+		Panel90.setBounds(0, 0, 1186, 563);
+		Room6.add(Panel90);
+		
+		JButton NextBtn90 = new JButton("");
+		NextBtn90.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn90.setBounds(1147, 20, 27, 23);
+		Panel90.add(NextBtn90);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_4 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_4.setIcon(new ImageIcon(Story.class.getResource("/image/90.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_4.setBounds(0, 0, 1186, 563);
+		Panel90.add(lblNewLabel_6_1_12_7_1_21_1_1_4);
+		
+		JPanel Panel91 = new JPanel();
+		Panel91.setLayout(null);
+		Panel91.setBounds(0, 0, 1186, 563);
+		Room6.add(Panel91);
+		
+		JButton NextBtn91 = new JButton("");
+		NextBtn91.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn91.setBounds(1147, 20, 27, 23);
+		Panel91.add(NextBtn91);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_5 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_5.setIcon(new ImageIcon(Story.class.getResource("/image/91.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_5.setBounds(0, 0, 1186, 563);
+		Panel91.add(lblNewLabel_6_1_12_7_1_21_1_1_5);
+		
+		JPanel Panel92 = new JPanel();
+		Panel92.setLayout(null);
+		Panel92.setBounds(0, 0, 1186, 563);
+		Room6.add(Panel92);
+		
+		JButton NextBtn92 = new JButton("");
+		NextBtn92.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn92.setBounds(1147, 20, 27, 23);
+		Panel92.add(NextBtn92);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_6 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_6.setIcon(new ImageIcon(Story.class.getResource("/image/92.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_6.setBounds(0, 0, 1186, 563);
+		Panel92.add(lblNewLabel_6_1_12_7_1_21_1_1_6);
+		
+		JPanel Panel93 = new JPanel();
+		Panel93.setLayout(null);
+		Panel93.setBounds(0, 0, 1186, 563);
+		Room6.add(Panel93);
+		
+		JButton NextBtn93 = new JButton("");
+		NextBtn93.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn93.setBounds(1147, 20, 27, 23);
+		Panel93.add(NextBtn93);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_7 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_7.setIcon(new ImageIcon(Story.class.getResource("/image/93.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_7.setBounds(0, 0, 1186, 563);
+		Panel93.add(lblNewLabel_6_1_12_7_1_21_1_1_7);
+		
+		JPanel Panel94 = new JPanel();
+		Panel94.setLayout(null);
+		Panel94.setBounds(0, 0, 1186, 563);
+		Room6.add(Panel94);
+		
+		JButton NextBtn94 = new JButton("");
+		NextBtn94.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn94.setBounds(1147, 20, 27, 23);
+		Panel94.add(NextBtn94);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_8 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_8.setIcon(new ImageIcon(Story.class.getResource("/image/94.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_8.setBounds(0, 0, 1186, 563);
+		Panel94.add(lblNewLabel_6_1_12_7_1_21_1_1_8);
+		
+		JPanel Panel95 = new JPanel();
+		Panel95.setLayout(null);
+		Panel95.setBounds(0, 0, 1186, 563);
+		Room6.add(Panel95);
+		
+		JButton NextBtn95 = new JButton("");
+		NextBtn95.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn95.setBounds(1147, 20, 27, 23);
+		Panel95.add(NextBtn95);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_10 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_10.setIcon(new ImageIcon(Story.class.getResource("/image/95.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_10.setBounds(0, 0, 1186, 563);
+		Panel95.add(lblNewLabel_6_1_12_7_1_21_1_1_10);
+		
+		JPanel Panel96 = new JPanel();
+		Panel96.setLayout(null);
+		Panel96.setBounds(0, 0, 1186, 563);
+		Room6.add(Panel96);
+		
+		JButton NextBtn96 = new JButton("");
+		NextBtn96.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn96.setBounds(1147, 20, 27, 23);
+		Panel96.add(NextBtn96);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_9 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_9.setIcon(new ImageIcon(Story.class.getResource("/image/96.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_9.setBounds(0, 0, 1186, 563);
+		Panel96.add(lblNewLabel_6_1_12_7_1_21_1_1_9);
+		
+		JPanel Panel97 = new JPanel();
+		Panel97.setLayout(null);
+		Panel97.setBounds(0, 0, 1186, 563);
+		Room6.add(Panel97);
+		
+		JButton NextBtn97 = new JButton("");
+		NextBtn97.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn97.setBounds(1147, 20, 27, 23);
+		Panel97.add(NextBtn97);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_13 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_13.setIcon(new ImageIcon(Story.class.getResource("/image/97.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_13.setBounds(0, 0, 1186, 563);
+		Panel97.add(lblNewLabel_6_1_12_7_1_21_1_1_13);
+		
+		JPanel Panel98 = new JPanel();
+		Panel98.setLayout(null);
+		Panel98.setBounds(0, 0, 1186, 563);
+		Room6.add(Panel98);
+		
+		JButton NextBtn98 = new JButton("");
+		NextBtn98.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn98.setBounds(1147, 20, 27, 23);
+		Panel98.add(NextBtn98);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_14 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_14.setIcon(new ImageIcon(Story.class.getResource("/image/98.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_14.setBounds(0, 0, 1186, 563);
+		Panel98.add(lblNewLabel_6_1_12_7_1_21_1_1_14);
+		
+		JPanel Panel99 = new JPanel();
+		Panel99.setLayout(null);
+		Panel99.setBounds(0, 0, 1186, 563);
+		Room6.add(Panel99);
+		
+		JButton NextBtn99 = new JButton("");
+		NextBtn99.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn99.setBounds(1147, 20, 27, 23);
+		Panel99.add(NextBtn99);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_12 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_12.setIcon(new ImageIcon(Story.class.getResource("/image/99.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_12.setBounds(0, 0, 1186, 563);
+		Panel99.add(lblNewLabel_6_1_12_7_1_21_1_1_12);
+		
+		JPanel Panel100 = new JPanel();
+		Panel100.setLayout(null);
+		Panel100.setBounds(0, 0, 1186, 563);
+		Room6.add(Panel100);
+		
+		JButton NextBtn100 = new JButton("");
+		NextBtn100.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn100.setBounds(1147, 20, 27, 23);
+		Panel100.add(NextBtn100);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11.setIcon(new ImageIcon(Story.class.getResource("/image/100.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11.setBounds(0, 0, 1186, 563);
+		Panel100.add(lblNewLabel_6_1_12_7_1_21_1_1_11);
+		
+		JPanel FindRoom6 = new JPanel();
+		FindRoom6.setLayout(null);
+		FindRoom6.setBounds(0, 0, 1186, 563);
+		Room6.add(FindRoom6);
+		
+		JButton Room6Exit = new JButton("\uB098\uAC00\uAE30");
+		Room6Exit.setBounds(1105, 20, 75, 23);
+		FindRoom6.add(Room6Exit);
+		
+		JLabel lblNewLabel_7_2_1 = new JLabel("");
+		lblNewLabel_7_2_1.setIcon(new ImageIcon(Story.class.getResource("/image/SpecialRoom 1.png")));
+		lblNewLabel_7_2_1.setBounds(0, 0, 1186, 563);
+		FindRoom6.add(lblNewLabel_7_2_1);
+		
+		JPanel Room7 = new JPanel();
+		Room7.setBounds(0, 0, 1186, 563);
+		frame.getContentPane().add(Room7);
+		Room7.setVisible(false);
+		Room7.setLayout(null);
+		
+		JPanel Panel101 = new JPanel();
+		Panel101.setLayout(null);
+		Panel101.setBounds(0, 0, 1186, 563);
+		Room7.add(Panel101);
+		
+		JButton NextBtn101 = new JButton("");
+		NextBtn101.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn101.setBounds(1147, 20, 27, 23);
+		Panel101.add(NextBtn101);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1.setIcon(new ImageIcon(Story.class.getResource("/image/101.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1.setBounds(0, 0, 1186, 563);
+		Panel101.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1);
+		
+		JPanel Panel102 = new JPanel();
+		Panel102.setLayout(null);
+		Panel102.setBounds(0, 0, 1186, 563);
+		Room7.add(Panel102);
+		
+		JButton NextBtn102 = new JButton("");
+		NextBtn102.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn102.setBounds(1147, 20, 27, 23);
+		Panel102.add(NextBtn102);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_1 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_1.setIcon(new ImageIcon(Story.class.getResource("/image/102.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_1.setBounds(0, 0, 1186, 563);
+		Panel102.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_1);
+		
+		JPanel Panel103 = new JPanel();
+		Panel103.setLayout(null);
+		Panel103.setBounds(0, 0, 1186, 563);
+		Room7.add(Panel103);
+		
+		JButton NextBtn103 = new JButton("");
+		NextBtn103.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn103.setBounds(1147, 20, 27, 23);
+		Panel103.add(NextBtn103);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_2 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_2.setIcon(new ImageIcon(Story.class.getResource("/image/103.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_2.setBounds(0, 0, 1186, 563);
+		Panel103.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_2);
+		
+		JPanel Panel104 = new JPanel();
+		Panel104.setLayout(null);
+		Panel104.setBounds(0, 0, 1186, 563);
+		Room7.add(Panel104);
+		
+		JButton NextBtn104 = new JButton("");
+		NextBtn104.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn104.setBounds(1147, 20, 27, 23);
+		Panel104.add(NextBtn104);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_3 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_3.setIcon(new ImageIcon(Story.class.getResource("/image/104.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_3.setBounds(0, 0, 1186, 563);
+		Panel104.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_3);
+		
+		JPanel Panel105 = new JPanel();
+		Panel105.setLayout(null);
+		Panel105.setBounds(0, 0, 1186, 563);
+		Room7.add(Panel105);
+		
+		JButton NextBtn105 = new JButton("");
+		NextBtn105.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn105.setBounds(1147, 20, 27, 23);
+		Panel105.add(NextBtn105);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_4 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_4.setIcon(new ImageIcon(Story.class.getResource("/image/105.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_4.setBounds(0, 0, 1186, 563);
+		Panel105.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_4);
+		
+		JPanel Panel106 = new JPanel();
+		Panel106.setLayout(null);
+		Panel106.setBounds(0, 0, 1186, 563);
+		Room7.add(Panel106);
+		
+		JButton NextBtn106 = new JButton("");
+		NextBtn106.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn106.setBounds(1147, 20, 27, 23);
+		Panel106.add(NextBtn106);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_6 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_6.setIcon(new ImageIcon(Story.class.getResource("/image/106.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_6.setBounds(0, 0, 1186, 563);
+		Panel106.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_6);
+		
+		JPanel Panel107 = new JPanel();
+		Panel107.setLayout(null);
+		Panel107.setBounds(0, 0, 1186, 563);
+		Room7.add(Panel107);
+		
+		JButton NextBtn107 = new JButton("");
+		NextBtn107.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn107.setBounds(1147, 20, 27, 23);
+		Panel107.add(NextBtn107);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_5 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_5.setIcon(new ImageIcon(Story.class.getResource("/image/107.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_5.setBounds(0, 0, 1186, 563);
+		Panel107.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_5);
+		
+		JPanel Panel108 = new JPanel();
+		Panel108.setLayout(null);
+		Panel108.setBounds(0, 0, 1186, 563);
+		Room7.add(Panel108);
+		
+		JButton NextBtn108 = new JButton("");
+		NextBtn108.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn108.setBounds(1147, 20, 27, 23);
+		Panel108.add(NextBtn108);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_7 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_7.setIcon(new ImageIcon(Story.class.getResource("/image/108.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_7.setBounds(0, 0, 1186, 563);
+		Panel108.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_7);
+		
+		JPanel Panel109 = new JPanel();
+		Panel109.setLayout(null);
+		Panel109.setBounds(0, 0, 1186, 563);
+		Room7.add(Panel109);
+		
+		JButton NextBtn109 = new JButton("");
+		NextBtn109.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn109.setBounds(1147, 20, 27, 23);
+		Panel109.add(NextBtn109);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_9 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_9.setIcon(new ImageIcon(Story.class.getResource("/image/109.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_9.setBounds(0, 0, 1186, 563);
+		Panel109.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_9);
+		
+		JPanel Panel110 = new JPanel();
+		Panel110.setLayout(null);
+		Panel110.setBounds(0, 0, 1186, 563);
+		Room7.add(Panel110);
+		
+		JButton NextBtn110 = new JButton("");
+		NextBtn110.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn110.setBounds(1147, 20, 27, 23);
+		Panel110.add(NextBtn110);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_10 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_10.setIcon(new ImageIcon(Story.class.getResource("/image/110.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_10.setBounds(0, 0, 1186, 563);
+		Panel110.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_10);
+		
+		JPanel Panel111 = new JPanel();
+		Panel111.setLayout(null);
+		Panel111.setBounds(0, 0, 1186, 563);
+		Room7.add(Panel111);
+		
+		JButton NextBtn111 = new JButton("");
+		NextBtn111.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn111.setBounds(1147, 20, 27, 23);
+		Panel111.add(NextBtn111);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_8 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_8.setIcon(new ImageIcon(Story.class.getResource("/image/111.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_8.setBounds(0, 0, 1186, 563);
+		Panel111.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_8);
+		
+		JPanel Panel112 = new JPanel();
+		Panel112.setLayout(null);
+		Panel112.setBounds(0, 0, 1186, 563);
+		Room7.add(Panel112);
+		
+		JButton NextBtn112 = new JButton("");
+		NextBtn112.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn112.setBounds(1147, 20, 27, 23);
+		Panel112.add(NextBtn112);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_11 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_11.setIcon(new ImageIcon(Story.class.getResource("/image/112.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_11.setBounds(0, 0, 1186, 563);
+		Panel112.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_11);
+		
+		JPanel Panel113 = new JPanel();
+		Panel113.setLayout(null);
+		Panel113.setBounds(0, 0, 1186, 563);
+		Room7.add(Panel113);
+		
+		JButton NextBtn113 = new JButton("");
+		NextBtn113.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn113.setBounds(1147, 20, 27, 23);
+		Panel113.add(NextBtn113);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_12 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_12.setIcon(new ImageIcon(Story.class.getResource("/image/113.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_12.setBounds(0, 0, 1186, 563);
+		Panel113.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_12);
+		
+		JPanel Panel114 = new JPanel();
+		Panel114.setLayout(null);
+		Panel114.setBounds(0, 0, 1186, 563);
+		Room7.add(Panel114);
+		
+		JButton NextBtn114 = new JButton("");
+		NextBtn114.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn114.setBounds(1147, 20, 27, 23);
+		Panel114.add(NextBtn114);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13.setIcon(new ImageIcon(Story.class.getResource("/image/114.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13.setBounds(0, 0, 1186, 563);
+		Panel114.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13);
+		
+		JPanel FindRoom7 = new JPanel();
+		FindRoom7.setLayout(null);
+		FindRoom7.setBounds(0, 0, 1186, 563);
+		Room7.add(FindRoom7);
+		
+		JButton Room7Exit = new JButton("\uB098\uAC00\uAE30");
+		Room7Exit.setFont(new Font("±¼¸²", Font.PLAIN, 12));
+		Room7Exit.setBounds(1105, 20, 75, 23);
+		FindRoom7.add(Room7Exit);
+		
+		JLabel lblNewLabel_7_2_1_1 = new JLabel("");
+		lblNewLabel_7_2_1_1.setIcon(new ImageIcon(Story.class.getResource("/image/SpecialRoom 1.png")));
+		lblNewLabel_7_2_1_1.setBounds(0, 0, 1186, 563);
+		FindRoom7.add(lblNewLabel_7_2_1_1);
+		
+		JPanel Room8 = new JPanel();
+		Room8.setBounds(0, 0, 1186, 563);
+		frame.getContentPane().add(Room8);
+		Room8.setVisible(false);
+		Room8.setLayout(null);
+		
+		JPanel Defeat = new JPanel();
+		Defeat.setBounds(0, 0, 1186, 563);
+		Room8.add(Defeat);
+		Defeat.setVisible(false);
+		Defeat.setLayout(null);
+		
+		JPanel Panel120 = new JPanel();
+		Panel120.setLayout(null);
+		Panel120.setBounds(0, 0, 1186, 563);
+		Defeat.add(Panel120);
+		
+		JButton NextBtn120 = new JButton("");
+		NextBtn120.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn120.setBounds(1147, 20, 27, 23);
+		Panel120.add(NextBtn120);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_4 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_4.setIcon(new ImageIcon(Story.class.getResource("/image/120.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_4.setBounds(0, 0, 1186, 563);
+		Panel120.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_4);
+		
+		JPanel Panel121 = new JPanel();
+		Panel121.setLayout(null);
+		Panel121.setBounds(0, 0, 1186, 563);
+		Defeat.add(Panel121);
+		
+		JButton NextBtn121 = new JButton("");
+		NextBtn121.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn121.setBounds(1147, 20, 27, 23);
+		Panel121.add(NextBtn121);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_3 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_3.setIcon(new ImageIcon(Story.class.getResource("/image/121.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_3.setBounds(0, 0, 1186, 563);
+		Panel121.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_3);
+		
+		JPanel Panel122 = new JPanel();
+		Panel122.setLayout(null);
+		Panel122.setBounds(0, 0, 1186, 563);
+		Defeat.add(Panel122);
+		
+		JButton NextBtn122 = new JButton("");
+		NextBtn122.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn122.setBounds(1147, 20, 27, 23);
+		Panel122.add(NextBtn122);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_2 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_2.setIcon(new ImageIcon(Story.class.getResource("/image/122.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_2.setBounds(0, 0, 1186, 563);
+		Panel122.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_2);
+		
+		JPanel Panel123 = new JPanel();
+		Panel123.setLayout(null);
+		Panel123.setBounds(0, 0, 1186, 563);
+		Defeat.add(Panel123);
+		
+		JButton NextBtn123 = new JButton("");
+		NextBtn123.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn123.setBounds(1147, 20, 27, 23);
+		Panel123.add(NextBtn123);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2.setIcon(new ImageIcon(Story.class.getResource("/image/123.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2.setBounds(0, 0, 1186, 563);
+		Panel123.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2);
+		
+		JPanel Panel124 = new JPanel();
+		Panel124.setLayout(null);
+		Panel124.setBounds(0, 0, 1186, 563);
+		Defeat.add(Panel124);
+		
+		JButton NextBtn124 = new JButton("");
+		NextBtn124.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn124.setBounds(1147, 20, 27, 23);
+		Panel124.add(NextBtn124);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_3 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_3.setIcon(new ImageIcon(Story.class.getResource("/image/124.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_3.setBounds(0, 0, 1186, 563);
+		Panel124.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_3);
+		
+		JPanel Panel125 = new JPanel();
+		Panel125.setLayout(null);
+		Panel125.setBounds(0, 0, 1186, 563);
+		Defeat.add(Panel125);
+		
+		JButton NextBtn125 = new JButton("");
+		NextBtn125.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn125.setBounds(1147, 20, 27, 23);
+		Panel125.add(NextBtn125);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_1 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_1.setIcon(new ImageIcon(Story.class.getResource("/image/125.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_1.setBounds(0, 0, 1186, 563);
+		Panel125.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_1);
+		
+		JPanel Panel125_1 = new JPanel();
+		Panel125_1.setLayout(null);
+		Panel125_1.setBounds(0, 0, 1186, 563);
+		Defeat.add(Panel125_1);
+		
+		JButton NextBtn125_1 = new JButton("");
+		NextBtn125_1.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn125_1.setBounds(1147, 20, 27, 23);
+		Panel125_1.add(NextBtn125_1);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_1_1 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_1_1.setIcon(new ImageIcon(Story.class.getResource("/image/125-1.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_1_1.setBounds(0, 0, 1186, 563);
+		Panel125_1.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_1_1);
+		
+		JPanel Panel126 = new JPanel();
+		Panel126.setLayout(null);
+		Panel126.setBounds(0, 0, 1186, 563);
+		Defeat.add(Panel126);
+		
+		JButton NextBtn126 = new JButton("");
+		NextBtn126.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn126.setBounds(1147, 20, 27, 23);
+		Panel126.add(NextBtn126);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2.setIcon(new ImageIcon(Story.class.getResource("/image/126.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2.setBounds(0, 0, 1186, 563);
+		Panel126.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2);
+		
+		JPanel Panel127 = new JPanel();
+		Panel127.setLayout(null);
+		Panel127.setBounds(0, 0, 1186, 563);
+		Defeat.add(Panel127);
+		
+		JButton NextBtn127 = new JButton("");
+		NextBtn127.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn127.setBounds(1147, 20, 27, 23);
+		Panel127.add(NextBtn127);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1.setIcon(new ImageIcon(Story.class.getResource("/image/127.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1.setBounds(0, 0, 1186, 563);
+		Panel127.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1);
+		
+		JPanel GameOver = new JPanel();
+		GameOver.setLayout(null);
+		GameOver.setBounds(0, 0, 1186, 563);
+		Defeat.add(GameOver);
+		
+		JButton Retry = new JButton("Retry");
+		Retry.setFont(new Font("Baskerville BT", Font.BOLD, 30));
+		Retry.setBounds(513, 251, 127, 54);
+		GameOver.add(Retry);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_1 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_1.setIcon(new ImageIcon(Story.class.getResource("/image/Hotel 1.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_1.setBounds(0, 0, 1186, 563);
+		GameOver.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_1);
+		
+		JPanel SevenDoors = new JPanel();
+		SevenDoors.setLayout(null);
+		SevenDoors.setBounds(0, 0, 1186, 563);
+		SevenDoors.setVisible(false);
+		Room8.add(SevenDoors);
+		
+		JButton Room8Exit = new JButton("\uB098\uAC00\uAE30");
+		Room8Exit.setBounds(1105, 20, 75, 23);
+		SevenDoors.add(Room8Exit);
+		
+		JButton Criminal1 = new JButton("1\uBC88");
+		Criminal1.setBounds(202, 59, 61, 23);
+		SevenDoors.add(Criminal1);
+		
+		JButton Criminal2 = new JButton("2\uBC88");
+		Criminal2.setBounds(433, 59, 61, 23);
+		SevenDoors.add(Criminal2);
+		
+		JButton Criminal3 = new JButton("3\uBC88");
+		Criminal3.setBounds(686, 59, 61, 23);
+		SevenDoors.add(Criminal3);
+		
+		JButton Criminal4 = new JButton("4\uBC88");
+		Criminal4.setBounds(931, 59, 61, 23);
+		SevenDoors.add(Criminal4);
+		
+		JButton Criminal5 = new JButton("5\uBC88");
+		Criminal5.setBounds(291, 353, 61, 23);
+		SevenDoors.add(Criminal5);
+		
+		JButton Criminal6 = new JButton("6\uBC88");
+		Criminal6.setBounds(555, 353, 61, 23);
+		SevenDoors.add(Criminal6);
+		
+		JButton Criminal7 = new JButton("7\uBC88");
+		Criminal7.setBounds(824, 353, 61, 23);
+		SevenDoors.add(Criminal7);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_1 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_1.setIcon(new ImageIcon(Story.class.getResource("/image/SevenDoors.png")));
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_1.setBounds(0, 0, 1186, 563);
+		SevenDoors.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_1);
+		
 		
 		StartBtn.addActionListener(new ActionListener() {
 
@@ -1389,6 +2771,1000 @@ public class Story {
 			}
 			
 		});
+		Room_3.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel6.setVisible(false);
+				Room3.setVisible(true);
+				Panel48.setVisible(true);
+			}
+			
+		});
+		NextBtn48.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel48.setVisible(false);
+				Panel49.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn49.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel49.setVisible(false);
+				Panel50.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn50.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel50.setVisible(false);
+				Panel51.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn51.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel51.setVisible(false);
+				Panel52.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn52.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel52.setVisible(false);
+				Panel53.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn53.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel53.setVisible(false);
+				Panel54.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn54.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel54.setVisible(false);
+				Panel55.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn55.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel55.setVisible(false);
+				Panel56.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn56.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel56.setVisible(false);
+				Panel57.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn57.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel57.setVisible(false);
+				Panel58.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn58.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel58.setVisible(false);
+				Panel59.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn59.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel59.setVisible(false);
+				Panel60.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn60.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel60.setVisible(false);
+				Panel61.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn61.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel61.setVisible(false);
+				Panel62.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn62.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel62.setVisible(false);
+				FindRoom3.setVisible(true);
+				
+			}
+			
+		});
+		Room3Exit.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				FindRoom3.setVisible(false);
+				Room3.setVisible(false);
+				Panel6.setVisible(true);
+				
+			}
+			
+		});
+		Room_4.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel6.setVisible(false);
+				Room4.setVisible(true);
+				Panel115.setVisible(true);
+			}
+			
+		});
+		NextBtn115.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel115.setVisible(false);
+				Panel116.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn116.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel116.setVisible(false);
+				Panel117.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn117.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel117.setVisible(false);
+				Panel118.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn118.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel118.setVisible(false);
+				Panel119.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn119.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel119.setVisible(false);
+				FindRoom4.setVisible(true);
+				
+			}
+			
+		});
 		
+		Room4Exit.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				FindRoom4.setVisible(false);
+				Room4.setVisible(false);
+				Panel6.setVisible(true);
+				
+			}
+			
+		});
+		Room_5.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel6.setVisible(false);
+				Room5.setVisible(true);
+				Panel63.setVisible(true);
+			}
+			
+		});
+		NextBtn63.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel63.setVisible(false);
+				Panel64.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn64.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel64.setVisible(false);
+				Panel65.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn65.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel65.setVisible(false);
+				Panel66.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn66.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel66.setVisible(false);
+				Panel67.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn67.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel67.setVisible(false);
+				Panel68.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn68.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel68.setVisible(false);
+				Panel69.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn69.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel69.setVisible(false);
+				Panel70.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn70.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel70.setVisible(false);
+				Panel71.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn71.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel71.setVisible(false);
+				Panel72.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn72.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel72.setVisible(false);
+				Panel73.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn73.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel73.setVisible(false);
+				Panel74.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn74.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel74.setVisible(false);
+				Panel75.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn75.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel75.setVisible(false);
+				Panel76.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn76.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel76.setVisible(false);
+				Panel77.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn77.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel77.setVisible(false);
+				Panel78.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn78.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel78.setVisible(false);
+				Panel79.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn79.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel79.setVisible(false);
+				Panel80.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn80.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel80.setVisible(false);
+				Panel81.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn81.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel81.setVisible(false);
+				Panel82.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn82.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel82.setVisible(false);
+				Panel83.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn83.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel83.setVisible(false);
+				Panel84.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn84.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel84.setVisible(false);
+				Panel85.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn85.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel85.setVisible(false);
+				FindRoom5.setVisible(true);
+				
+			}
+			
+		});
+		Room5Exit.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				FindRoom5.setVisible(false);
+				Room5.setVisible(false);
+				Panel6.setVisible(true);
+				
+			}
+			
+		});
+		Room_6.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel6.setVisible(false);
+				Room6.setVisible(true);
+				Panel86.setVisible(true);
+			}
+			
+		});
+		NextBtn86.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel86.setVisible(false);
+				Panel87.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn87.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel87.setVisible(false);
+				Panel88.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn88.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel88.setVisible(false);
+				Panel89.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn89.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel89.setVisible(false);
+				Panel90.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn90.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel90.setVisible(false);
+				Panel91.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn91.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel91.setVisible(false);
+				Panel92.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn92.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel92.setVisible(false);
+				Panel93.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn93.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel93.setVisible(false);
+				Panel94.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn94.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel94.setVisible(false);
+				Panel95.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn95.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel95.setVisible(false);
+				Panel96.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn96.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel96.setVisible(false);
+				Panel97.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn97.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel97.setVisible(false);
+				Panel98.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn98.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel98.setVisible(false);
+				Panel99.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn99.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel99.setVisible(false);
+				Panel100.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn100.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel100.setVisible(false);
+				FindRoom6.setVisible(true);
+				
+			}
+			
+		});
+		
+		Room6Exit.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				FindRoom6.setVisible(false);
+				Room6.setVisible(false);
+				Panel6.setVisible(true);
+				
+			}
+			
+		});
+		Room_7.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel6.setVisible(false);
+				Room7.setVisible(true);
+				Panel101.setVisible(true);
+			}
+			
+		});
+		NextBtn101.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel101.setVisible(false);
+				Panel102.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn102.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel102.setVisible(false);
+				Panel103.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn103.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel103.setVisible(false);
+				Panel104.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn104.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel104.setVisible(false);
+				Panel105.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn105.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel105.setVisible(false);
+				Panel106.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn106.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel106.setVisible(false);
+				Panel107.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn107.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel107.setVisible(false);
+				Panel108.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn108.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel108.setVisible(false);
+				Panel109.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn109.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel109.setVisible(false);
+				Panel110.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn110.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel110.setVisible(false);
+				Panel111.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn111.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel111.setVisible(false);
+				Panel112.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn112.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel112.setVisible(false);
+				Panel113.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn113.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel113.setVisible(false);
+				Panel114.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn114.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel114.setVisible(false);
+				FindRoom7.setVisible(true);
+				
+			}
+			
+		});
+		
+		Room7Exit.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				FindRoom7.setVisible(false);
+				Room7.setVisible(false);
+				Panel6.setVisible(true);
+				
+			}
+			
+		});
+		Room_8.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel6.setVisible(false);
+				Room8.setVisible(true);
+				SevenDoors.setVisible(true);
+			}
+			
+		});
+		Criminal1.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				SevenDoors.setVisible(false);
+				Defeat.setVisible(true);
+				Panel120.setVisible(true);
+				
+			}
+			
+		});
+		Criminal2.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				SevenDoors.setVisible(false);
+				Defeat.setVisible(true);
+				Panel120.setVisible(true);
+				
+			}
+			
+		});
+		Criminal3.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				SevenDoors.setVisible(false);
+				Defeat.setVisible(true);
+				Panel120.setVisible(true);
+				
+			}
+			
+		});
+		Criminal5.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				SevenDoors.setVisible(false);
+				Defeat.setVisible(true);
+				Panel120.setVisible(true);
+				
+			}
+			
+		});
+		Criminal6.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				SevenDoors.setVisible(false);
+				Defeat.setVisible(true);
+				Panel120.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn120.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel120.setVisible(false);
+				Panel121.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn121.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel121.setVisible(false);
+				Panel122.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn122.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel122.setVisible(false);
+				Panel123.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn123.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel123.setVisible(false);
+				Panel124.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn124.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel124.setVisible(false);
+				Panel125.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn125.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel125.setVisible(false);
+				Panel125_1.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn125_1.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel125_1.setVisible(false);
+				Panel126.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn126.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel126.setVisible(false);
+				Panel127.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn127.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel127.setVisible(false);
+				GameOver.setVisible(true);
+				
+			}
+			
+		});
+		Retry.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Room8.setVisible(false);
+				Defeat.setVisible(false);
+				SevenDoors.setVisible(false);
+				Panel6.setVisible(true);
+				
+			}
+			
+		});
 	}
 }
