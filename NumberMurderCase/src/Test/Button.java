@@ -12,8 +12,8 @@ public class Button extends JFrame{
 	/*버튼생성*/
 	static JButton b1=new JButton("버튼1");
 	/*그려주기*/
-	private ImageIcon btImage = new ImageIcon(Button.class.getResource("../image/bg1.png"));//나가기버튼 눌렀을 때 이미지
-	private Image background=new ImageIcon(Button.class.getResource("../image/bg.png")).getImage();//배경이미지
+	private ImageIcon btImage = new ImageIcon(Button.class.getResource("../image/Frame 2.png"));//나가기버튼 눌렀을 때 이미지
+	private Image background=new ImageIcon(Button.class.getResource("../image/Frame 1.png")).getImage();//배경이미지
 	/*생성자*/
 	public Button() {
 		homeframe();
@@ -22,9 +22,8 @@ public class Button extends JFrame{
 	/*프레임 생성 함수*/
 	public void homeframe() {
 		setTitle("1");//타이틀
-		setSize(400,600);//프레임의 크기
+		setBounds(40, 20, 1200, 600);//프레임의 크기
 		setResizable(false);//창의 크기를 변경하지 못하게
-		setLocationRelativeTo(null);//창이 가운데 나오게
 		setLayout(null);//레이아웃을 내맘대로 설정가능하게 해줌.
 		setVisible(true);//창이 보이게
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//JFrame이 정상적으로 종료되게
@@ -32,7 +31,7 @@ public class Button extends JFrame{
 	/*버튼설정*/
 	public void btn() {
 		b1.setLayout(null);//레이아웃
-		b1.setBounds(0, 0, 100, 100);//위치,크기
+		b1.setBounds(0, 0, 1200, 600);//프레임의 크기
 		add(b1);//프레임에 추가
 		b1.setIcon(btImage);//버튼의 아이콘 설정
 	}

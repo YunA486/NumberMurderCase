@@ -89,23 +89,17 @@ class MyPanel extends JPanel implements MouseListener, MouseMotionListener, Acti
 		reset = new JButton("다시하기");
 		reset.setSize(100, 20);
 		reset.setBackground(Color.WHITE);
-		reset.setLocation(50, 120);
+		reset.setLocation(490, 60);
 		reset.addActionListener(this);
 		add(reset);
-		// main제목
-		Font font = new Font("", Font.BOLD, 25);
-		mainText = new JLabel("1 to 50");
-		mainText.setFont(font);
-		mainText.setSize(200, 100);
-		mainText.setLocation(50, 30);
-		add(mainText);
 		// sub제목
+		Font font = new Font("", Font.BOLD, 25);
 		font = new Font("", Font.PLAIN, 10);
 		subText = new JLabel("1부터 50까지 순서대로 터치하여 없애보세요.");
 		subText.setFont(font);
-		subText.setForeground(Color.LIGHT_GRAY);
+		subText.setForeground(Color.BLACK);
 		subText.setSize(500, 50);
-		subText.setLocation(50, 80);
+		subText.setLocation(90, 43);
 		add(subText);
 		// 시간
 		font = new Font("", Font.BOLD, 30);
@@ -137,7 +131,7 @@ class MyPanel extends JPanel implements MouseListener, MouseMotionListener, Acti
 				rect[i] = new Rect();
 				rect[i].size = 100;
 				rect[i].x = 90 + x * rect[i].size;
-				rect[i].y = 160 + y * rect[i].size;
+				rect[i].y = 85 + y * rect[i].size;
 				rect[i].num = i + 1;
 				rect[i].color = new Color(178, 204, 255);
 				rect[i].back = 26 + i;
@@ -218,6 +212,8 @@ class MyPanel extends JPanel implements MouseListener, MouseMotionListener, Acti
 							a = 50;
 							isStopWatch = false;
 							timeTextLb.setText(StopWatch.timeText);
+							// 끝나면 멈춤
+							System.out.println("END");
 						}
 						answerText.setText(a + "");
 					}
@@ -232,7 +228,7 @@ class MyPanel extends JPanel implements MouseListener, MouseMotionListener, Acti
 		// TODO Auto-generated method stub
 		int x = e.getX();
 		int y = e.getY();
-		// System.out.println(x+" "+y);
+//		 System.out.println(x+" "+y);
 		for (int i = 0; i < 25; i++) {
 			if (rect[i].x < x && x < rect[i].x + rect[i].size && rect[i].y < y && y < rect[i].y + rect[i].size) {
 				rect[i].color = new Color(103, 152, 255);
@@ -287,9 +283,9 @@ class MyPanel extends JPanel implements MouseListener, MouseMotionListener, Acti
 public class Game {
 	public static void main(String[] args) {
 		JFrame frame = new JFrame();
-		frame.setTitle("순발력 테스트! 추억의 1부터 50까지");
+		frame.setTitle("순발력 테스트");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setSize(700, 900);
+		frame.setSize(700, 630);
 		// 가운데 위치시키기
 		Toolkit tk = Toolkit.getDefaultToolkit();
 		Dimension screenSize = tk.getScreenSize();
