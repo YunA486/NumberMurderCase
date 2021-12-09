@@ -62,7 +62,7 @@ public class Story {
 		StartBtn.setForeground(Color.BLACK);
 		StartBtn.setBackground(Color.WHITE);
 		StartBtn.setFont(new Font("Baskerville Old Face", Font.PLAIN, 20));
-		StartBtn.setBounds(507, 355, 139, 45);
+		StartBtn.setBounds(513, 355, 139, 45);
 		TitlePanel.add(StartBtn);
 		
 		JLabel StartHotel = new JLabel("");
@@ -157,35 +157,35 @@ public class Story {
 		Panel6.setLayout(null);
 		
 		JButton Room_1 = new JButton("1\uBC88 \uBC29");
-		Room_1.setBounds(197, 69, 70, 23);
+		Room_1.setBounds(167, 69, 70, 23);
 		Panel6.add(Room_1);
 		
 		JButton Room_2 = new JButton("2\uBC88 \uBC29");
-		Room_2.setBounds(426, 69, 70, 23);
+		Room_2.setBounds(427, 69, 70, 23);
 		Panel6.add(Room_2);
 		
 		JButton Room_3 = new JButton("3\uBC88 \uBC29");
-		Room_3.setBounds(681, 69, 70, 23);
+		Room_3.setBounds(691, 69, 70, 23);
 		Panel6.add(Room_3);
 		
 		JButton Room_4 = new JButton("4\uBC88 \uBC29");
-		Room_4.setBounds(930, 69, 70, 23);
+		Room_4.setBounds(955, 69, 70, 23);
 		Panel6.add(Room_4);
 		
 		JButton Room_5 = new JButton("5\uBC88 \uBC29");
-		Room_5.setBounds(197, 355, 70, 23);
+		Room_5.setBounds(167, 355, 70, 23);
 		Panel6.add(Room_5);
 		
 		JButton Room_6 = new JButton("6\uBC88 \uBC29");
-		Room_6.setBounds(426, 355, 70, 23);
+		Room_6.setBounds(427, 355, 70, 23);
 		Panel6.add(Room_6);
 		
 		JButton Room_7 = new JButton("7\uBC88 \uBC29");
-		Room_7.setBounds(681, 355, 70, 23);
+		Room_7.setBounds(691, 355, 70, 23);
 		Panel6.add(Room_7);
 		
 		JButton Room_8 = new JButton("\uBC94\uC778 \uC7A1\uAE30");
-		Room_8.setBounds(918, 355, 87, 23);
+		Room_8.setBounds(943, 355, 87, 23);
 		Panel6.add(Room_8);
 		
 		JLabel Rooms = new JLabel("");
@@ -194,37 +194,12 @@ public class Story {
 		Panel6.setVisible(false);
 		Panel6.add(Rooms);
 		
+		
 		JPanel Room1 = new JPanel();
 		Room1.setBounds(0, 0, 1186, 563);
 		frame.getContentPane().add(Room1);
 		Room1.setVisible(false);
 		Room1.setLayout(null);
-		
-		JPanel FindRoom1 = new JPanel();
-		FindRoom1.setBounds(0, 0, 1186, 563);
-		Room1.add(FindRoom1);
-		FindRoom1.setLayout(null);
-		
-		JButton Room1Exit = new JButton("\uB098\uAC00\uAE30");
-		Room1Exit.setBounds(1105, 20, 75, 23);
-		FindRoom1.add(Room1Exit);
-		
-		JLabel lblNewLabel_5 = new JLabel("");
-		lblNewLabel_5.setBounds(0, 0, 1186, 563);
-		lblNewLabel_5.setIcon(new ImageIcon(Story.class.getResource("/image/SpecialRoom 1.png")));
-		FindRoom1.setVisible(false);
-		FindRoom1.add(lblNewLabel_5);
-		Room1Exit.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Room1.setVisible(false);
-				FindRoom1.setVisible(false);
-				Panel6.setVisible(true);
-				
-			}
-			
-		});
 		
 		JPanel Panel7 = new JPanel();
 		Panel7.setBounds(0, 0, 1186, 563);
@@ -544,206 +519,22 @@ public class Story {
 		lblNewLabel_4_11_6.setBounds(0, 0, 1186, 563);
 		Panel26.setVisible(false);
 		Panel26.add(lblNewLabel_4_11_6);
-		NextBtn7.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel7.setVisible(false);
-				Panel8.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn8.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel8.setVisible(false);
-				Panel9.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn9.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel9.setVisible(false);
-				Panel10.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn10.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel10.setVisible(false);
-				Panel11.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn11.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel11.setVisible(false);
-				Panel12.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn12.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel12.setVisible(false);
-				Panel13.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn13.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel13.setVisible(false);
-				Panel14.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn14.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel14.setVisible(false);
-				Panel15.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn15.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel15.setVisible(false);
-				Panel16.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn16.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel16.setVisible(false);
-				Panel17.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn17.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel17.setVisible(false);
-				Panel18.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn18.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel18.setVisible(false);
-				Panel19.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn19.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel19.setVisible(false);
-				Panel20.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn20.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel20.setVisible(false);
-				Panel21.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn21.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel21.setVisible(false);
-				Panel22.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn22.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel22.setVisible(false);
-				Panel23.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn23.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel23.setVisible(false);
-				Panel24.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn24.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel24.setVisible(false);
-				Panel25.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn25.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel25.setVisible(false);
-				Panel26.setVisible(true);
-				
-			}
-			
-		});
-		NextBtn26.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel26.setVisible(false);
-				FindRoom1.setVisible(true);
-				
-			}
-			
-		});
+		
+		JPanel FindRoom1 = new JPanel();
+		FindRoom1.setBounds(0, 0, 1186, 563);
+		Room1.add(FindRoom1);
+		FindRoom1.setVisible(false);
+		FindRoom1.setLayout(null);
+		
+		JButton Room1Exit = new JButton("\uB098\uAC00\uAE30");
+		Room1Exit.setBounds(1105, 20, 75, 23);
+		FindRoom1.add(Room1Exit);
+		
+		JLabel lblNewLabel_5 = new JLabel("");
+		lblNewLabel_5.setBounds(0, 0, 1186, 563);
+		lblNewLabel_5.setIcon(new ImageIcon(Story.class.getResource("/image/SpecialRoom 1.png")));
+		FindRoom1.setVisible(false);
+		FindRoom1.add(lblNewLabel_5);		
 		
 		JPanel Room2 = new JPanel();
 		Room2.setBounds(0, 0, 1186, 563);
@@ -1068,6 +859,7 @@ public class Story {
 		JPanel FindRoom2 = new JPanel();
 		FindRoom2.setBounds(0, 0, 1186, 563);
 		Room2.add(FindRoom2);
+		FindRoom2.setVisible(false);
 		FindRoom2.setLayout(null);
 		
 		JButton Room2Exit = new JButton("\uB098\uAC00\uAE30");
@@ -1313,6 +1105,7 @@ public class Story {
 		JPanel FindRoom3 = new JPanel();
 		FindRoom3.setLayout(null);
 		FindRoom3.setBounds(0, 0, 1186, 563);
+		FindRoom3.setVisible(false);
 		Room3.add(FindRoom3);
 		
 		JButton button = new JButton("New button");
@@ -1412,6 +1205,7 @@ public class Story {
 		JPanel FindRoom4 = new JPanel();
 		FindRoom4.setLayout(null);
 		FindRoom4.setBounds(0, 0, 1186, 563);
+		FindRoom4.setVisible(false);
 		Room4.add(FindRoom4);
 		
 		JButton Room4Exit = new JButton("\uB098\uAC00\uAE30");
@@ -1776,6 +1570,7 @@ public class Story {
 		JPanel FindRoom5 = new JPanel();
 		FindRoom5.setLayout(null);
 		FindRoom5.setBounds(0, 0, 1186, 563);
+		FindRoom5.setVisible(false);
 		Room5.add(FindRoom5);
 		
 		JButton Room5Exit = new JButton("\uB098\uAC00\uAE30");
@@ -2021,6 +1816,7 @@ public class Story {
 		JPanel FindRoom6 = new JPanel();
 		FindRoom6.setLayout(null);
 		FindRoom6.setBounds(0, 0, 1186, 563);
+		FindRoom6.setVisible(false);
 		Room6.add(FindRoom6);
 		
 		JButton Room6Exit = new JButton("\uB098\uAC00\uAE30");
@@ -2251,6 +2047,7 @@ public class Story {
 		JPanel FindRoom7 = new JPanel();
 		FindRoom7.setLayout(null);
 		FindRoom7.setBounds(0, 0, 1186, 563);
+		FindRoom7.setVisible(false);
 		Room7.add(FindRoom7);
 		
 		JButton Room7Exit = new JButton("\uB098\uAC00\uAE30");
@@ -2268,6 +2065,24 @@ public class Story {
 		frame.getContentPane().add(Room8);
 		Room8.setVisible(false);
 		Room8.setLayout(null);
+		
+		JPanel Suicide = new JPanel();
+		Suicide.setBounds(0, 0, 1186, 563);
+		Room8.add(Suicide);
+		Suicide.setLayout(null);
+		
+		JPanel Panel172 = new JPanel();
+		Panel172.setBounds(0, 0, 1186, 563);
+		Suicide.add(Panel172);
+		Panel172.setLayout(null);
+		
+		JButton NextBtn128_1 = new JButton("");
+		NextBtn128_1.setBounds(0, 0, 27, 23);
+		Panel172.add(NextBtn128_1);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_3 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_3.setBounds(0, 0, 1186, 563);
+		Panel172.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_3);
 		
 		JPanel Success = new JPanel();
 		Success.setBounds(0, 0, 1186, 563);
@@ -2481,7 +2296,7 @@ public class Story {
 		
 		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10 = new JLabel("");
 		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10.setIcon(new ImageIcon(Story.class.getResource("/image/140.png")));
-		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10.setBounds(0, 0, 1186, 563);
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10.setBounds(-2, 0, 1186, 563);
 		Panel140.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10);
 		
 		JPanel Panel141 = new JPanel();
@@ -2952,14 +2767,22 @@ public class Story {
 		JPanel Vic = new JPanel();
 		Vic.setLayout(null);
 		Vic.setBounds(0, 0, 1186, 563);
+		Vic.setVisible(false);
 		Success.add(Vic);
 		
-		JButton End = new JButton("Retry");
+		JLabel lblNewLabel_8 = new JLabel("End of Number Murder Case");
+		lblNewLabel_8.setForeground(Color.WHITE);
+		lblNewLabel_8.setFont(new Font("Baskerville BT", Font.BOLD | Font.ITALIC, 55));
+		lblNewLabel_8.setBounds(200, 130, 819, 126);
+		Vic.add(lblNewLabel_8);
+		
+		JButton End = new JButton("Success");
 		End.setFont(new Font("Baskerville BT", Font.BOLD, 30));
-		End.setBounds(513, 251, 127, 54);
+		End.setBounds(513, 280, 182, 54);
 		Vic.add(End);
 		
 		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_1_1 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_1_1.setIcon(new ImageIcon(Story.class.getResource("/image/Hotel 1.png")));
 		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_1_1.setBounds(0, 0, 1186, 563);
 		Vic.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_1_1);
 		
@@ -3107,6 +2930,7 @@ public class Story {
 		JPanel GameOver = new JPanel();
 		GameOver.setLayout(null);
 		GameOver.setBounds(0, 0, 1186, 563);
+		GameOver.setVisible(false);
 		Defeat.add(GameOver);
 		
 		JButton Retry = new JButton("Retry");
@@ -3240,6 +3064,277 @@ public class Story {
 				Panel6.setVisible(false);
 				Room2.setVisible(true);
 				Panel27.setVisible(true);
+			}
+			
+		});
+		Room_3.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel6.setVisible(false);
+				Room3.setVisible(true);
+				Panel48.setVisible(true);
+			}
+			
+		});
+		Room_4.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel6.setVisible(false);
+				Room4.setVisible(true);
+				Panel115.setVisible(true);
+			}
+			
+		});
+		Room_5.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel6.setVisible(false);
+				Room5.setVisible(true);
+				Panel63.setVisible(true);
+			}
+			
+		});
+		Room_6.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel6.setVisible(false);
+				Room6.setVisible(true);
+				Panel86.setVisible(true);
+			}
+			
+		});
+		Room_7.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel6.setVisible(false);
+				Room7.setVisible(true);
+				Panel101.setVisible(true);
+			}
+			
+		});
+		Room_8.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel6.setVisible(false);
+				Room8.setVisible(true);
+				SevenDoors.setVisible(true);
+			}
+			
+		});
+		NextBtn7.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel7.setVisible(false);
+				Panel8.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn8.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel8.setVisible(false);
+				Panel9.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn9.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel9.setVisible(false);
+				Panel10.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn10.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel10.setVisible(false);
+				Panel11.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn11.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel11.setVisible(false);
+				Panel12.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn12.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel12.setVisible(false);
+				Panel13.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn13.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel13.setVisible(false);
+				Panel14.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn14.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel14.setVisible(false);
+				Panel15.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn15.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel15.setVisible(false);
+				Panel16.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn16.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel16.setVisible(false);
+				Panel17.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn17.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel17.setVisible(false);
+				Panel18.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn18.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel18.setVisible(false);
+				Panel19.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn19.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel19.setVisible(false);
+				Panel20.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn20.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel20.setVisible(false);
+				Panel21.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn21.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel21.setVisible(false);
+				Panel22.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn22.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel22.setVisible(false);
+				Panel23.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn23.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel23.setVisible(false);
+				Panel24.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn24.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel24.setVisible(false);
+				Panel25.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn25.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel25.setVisible(false);
+				Panel26.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn26.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel26.setVisible(false);
+				FindRoom1.setVisible(true);
+				
+			}
+			
+		});
+		Room1Exit.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Room1.setVisible(false);
+				FindRoom1.setVisible(false);
+				Panel6.setVisible(true);
+				
 			}
 			
 		});
@@ -3464,16 +3559,6 @@ public class Story {
 			}
 			
 		});
-		Room_3.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel6.setVisible(false);
-				Room3.setVisible(true);
-				Panel48.setVisible(true);
-			}
-			
-		});
 		NextBtn48.addActionListener(new ActionListener() {
 
 			@Override
@@ -3635,16 +3720,6 @@ public class Story {
 			}
 			
 		});
-		Room_4.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel6.setVisible(false);
-				Room4.setVisible(true);
-				Panel115.setVisible(true);
-			}
-			
-		});
 		NextBtn115.addActionListener(new ActionListener() {
 
 			@Override
@@ -3704,16 +3779,6 @@ public class Story {
 				Room4.setVisible(false);
 				Panel6.setVisible(true);
 				
-			}
-			
-		});
-		Room_5.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel6.setVisible(false);
-				Room5.setVisible(true);
-				Panel63.setVisible(true);
 			}
 			
 		});
@@ -3958,16 +4023,6 @@ public class Story {
 			}
 			
 		});
-		Room_6.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel6.setVisible(false);
-				Room6.setVisible(true);
-				Panel86.setVisible(true);
-			}
-			
-		});
 		NextBtn86.addActionListener(new ActionListener() {
 
 			@Override
@@ -4130,16 +4185,6 @@ public class Story {
 			}
 			
 		});
-		Room_7.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel6.setVisible(false);
-				Room7.setVisible(true);
-				Panel101.setVisible(true);
-			}
-			
-		});
 		NextBtn101.addActionListener(new ActionListener() {
 
 			@Override
@@ -4292,16 +4337,6 @@ public class Story {
 			}
 			
 		});
-		Room_8.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				Panel6.setVisible(false);
-				Room8.setVisible(true);
-				SevenDoors.setVisible(true);
-			}
-			
-		});
 		Criminal1.addActionListener(new ActionListener() {
 
 			@Override
@@ -4447,6 +4482,480 @@ public class Story {
 			}
 			
 		});
+		Criminal7.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				SevenDoors.setVisible(false);
+				Room8.setVisible(true);
+				Success.setVisible(true);
+				Panel128.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn128.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel128.setVisible(false);
+				Panel129.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn129.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel129.setVisible(false);
+				Panel130.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn130.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel130.setVisible(false);
+				Panel131.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn131.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel131.setVisible(false);
+				Panel131_1.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn131_1.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel131_1.setVisible(false);
+				Panel132.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn132.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel132.setVisible(false);
+				Panel133.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn133.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel133.setVisible(false);
+				Panel134.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn134.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel134.setVisible(false);
+				Panel135.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn135.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel135.setVisible(false);
+				Panel136.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn136.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel136.setVisible(false);
+				Panel137.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn137.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel137.setVisible(false);
+				Panel138.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn138.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel138.setVisible(false);
+				Panel139.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn139.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel139.setVisible(false);
+				Panel140.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn140.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel140.setVisible(false);
+				Panel141.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn141.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel141.setVisible(false);
+				Panel142.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn142.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel142.setVisible(false);
+				Panel143.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn143.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel143.setVisible(false);
+				Panel144.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn144.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel144.setVisible(false);
+				Panel145.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn145.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel145.setVisible(false);
+				Panel146.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn146.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel146.setVisible(false);
+				Panel147.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn147.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel147.setVisible(false);
+				Panel148.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn148.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel148.setVisible(false);
+				Panel149.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn149.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel149.setVisible(false);
+				Panel150.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn150.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel150.setVisible(false);
+				Panel151.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn151.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel151.setVisible(false);
+				Panel152.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn152.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel152.setVisible(false);
+				Panel153.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn153.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel153.setVisible(false);
+				Panel154.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn154.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel154.setVisible(false);
+				Panel155.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn155.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel155.setVisible(false);
+				Panel156.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn156.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel156.setVisible(false);
+				Panel157.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn157.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel157.setVisible(false);
+				Panel158.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn158.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel158.setVisible(false);
+				Panel159.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn159.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel159.setVisible(false);
+				Panel160.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn160.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel160.setVisible(false);
+				Panel161.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn161.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel161.setVisible(false);
+				Panel162.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn162.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel162.setVisible(false);
+				Panel163.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn163.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel163.setVisible(false);
+				Panel164.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn164.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel164.setVisible(false);
+				Panel165.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn165.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel165.setVisible(false);
+				Panel166.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn166.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel166.setVisible(false);
+				Panel167.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn167.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel167.setVisible(false);
+				Panel168.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn168.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel168.setVisible(false);
+				Panel169.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn169.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel169.setVisible(false);
+				Panel170.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn170.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel170.setVisible(false);
+				Panel171.setVisible(true);
+				
+			}
+			
+		});
+		NextBtn171.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Panel171.setVisible(false);
+				Vic.setVisible(true);
+				
+			}
+			
+		});
+		End.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				System.exit(0);
+				
+			}
+			
+		});
+		
+		
+// 방 조사 버튼들
 		Retry.addActionListener(new ActionListener() {
 
 			@Override
@@ -4460,76 +4969,5 @@ public class Story {
 			
 		});
 		
-		
-		
-		
-	}
-
-	private JTextField answer;
-	int lifeRemaining = 5;
-	
-	private void GuessNum() {
-		int randomNumber = (int)(Math.random()*30)+1;
-		System.out.println(randomNumber);
-		frame = new JFrame();
-		frame.setBounds(100, 100, 1044, 621);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.getContentPane().setLayout(null);
-		
-		JPanel panel = new JPanel();
-		panel.setBounds(0, 0, 1026, 574);
-		frame.getContentPane().add(panel);
-		panel.setLayout(null);
-		
-		JLabel life = new JLabel("Life : "+ lifeRemaining);
-		life.setFont(new Font("Tahoma", Font.PLAIN, 40));
-		life.setBounds(34, 23, 213, 46);
-		panel.add(life);
-		
-		JLabel lblPickANumber = new JLabel("Pick A number from 1 - 30");
-		lblPickANumber.setHorizontalAlignment(SwingConstants.CENTER);
-		lblPickANumber.setFont(new Font("Tahoma", Font.PLAIN, 40));
-		lblPickANumber.setBounds(162, 103, 715, 46);
-		panel.add(lblPickANumber);
-		
-		answer = new JTextField();
-		answer.setHorizontalAlignment(SwingConstants.CENTER);
-		answer.setFont(new Font("Tahoma", Font.PLAIN, 42));
-		answer.setBounds(162, 272, 721, 63);
-		panel.add(answer);
-		answer.setColumns(10);
-		
-		JButton guess = new JButton("G U E S S");
-		
-		guess.setFont(new Font("Tahoma", Font.PLAIN, 50));
-		guess.setBounds(162, 364, 721, 63);
-		panel.add(guess);
-		
-		JLabel res = new JLabel("Good Luck!");
-		res.setForeground(Color.BLUE);
-		res.setFont(new Font("Tahoma", Font.PLAIN, 42));
-		res.setHorizontalAlignment(SwingConstants.CENTER);
-		res.setBounds(162, 469, 721, 57);
-		panel.add(res);
-		
-		guess.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				int ans = Integer.parseInt(answer.getText());
-				if(lifeRemaining <= 0) {
-					res.setText("You lost");
-					return;
-				}
-				if(ans == randomNumber){
-					res.setText("ANSWER : 2048");
-				}
-				life.setText("Life : " + --lifeRemaining);
-				res.setForeground(Color.RED);
-				if(ans > randomNumber){
-					res.setText("Too much");
-				}else if(ans < randomNumber){
-					res.setText("Too little");
-				}
-			}
-		});
 	}
 }
