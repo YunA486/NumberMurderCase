@@ -52,33 +52,6 @@ public class Story {
 		frame.getContentPane().add(TitlePanel);
 		TitlePanel.setLayout(null);
 		
-		JButton Room5Camera = new JButton("");
-		Room5Camera.setIcon(new ImageIcon(Story.class.getResource("/image/Camera.png")));
-		Room5Camera.setBounds(544, 291, 95, 23);
-		TitlePanel.add(Room5Camera);
-		
-		JButton Room5Schedule = new JButton("");
-		Room5Schedule.setIcon(new ImageIcon(Story.class.getResource("/image/Schedule.png")));
-		Room5Schedule.setBounds(0, 0, 95, 23);
-		TitlePanel.add(Room5Schedule);
-		
-		JButton Room5Sign = new JButton("");
-		Room5Sign.setIcon(new ImageIcon(Story.class.getResource("/image/Sign.png")));
-		Room5Sign.setBounds(601, 275, 95, 23);
-		TitlePanel.add(Room5Sign);
-		
-		
-		
-		
-		
-		
-
-//		Room4Pill.setFocusPainted(false);
-//		Room4Pill.setContentAreaFilled(false);
-//		Room4Pill.setBorderPainted(false);
-		
-		
-		
 		JButton StartBtn = new JButton("START");
 		StartBtn.setForeground(Color.BLACK);
 		StartBtn.setBackground(Color.WHITE);
@@ -86,29 +59,17 @@ public class Story {
 		StartBtn.setBounds(513, 355, 139, 45);
 		TitlePanel.add(StartBtn);
 		
-		
-		StartBtn.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				TitlePanel.setVisible(false);
-				Panel1.setVisible(true);
-				
-			}
-			
-		});
-		
-		JLabel StartHotel = new JLabel("");
-		StartHotel.setBackground(Color.WHITE);
-		StartHotel.setIcon(new ImageIcon(Story.class.getResource("/image/SpecialRoom 1.png")));
-		StartHotel.setBounds(0, 0, 1186, 563);
-		TitlePanel.add(StartHotel);
-		
 		JLabel Title = new JLabel("Number Murder Case");
 		Title.setForeground(Color.WHITE);
 		Title.setFont(new Font("Baskerville BT", Font.BOLD | Font.ITALIC, 60));
 		Title.setBounds(288, 168, 638, 99);
 		TitlePanel.add(Title);
+		
+		JLabel StartHotel = new JLabel("");
+		StartHotel.setBackground(Color.WHITE);
+		StartHotel.setIcon(new ImageIcon(Story.class.getResource("/image/Hotel 1.png")));
+		StartHotel.setBounds(0, 0, 1186, 563);
+		TitlePanel.add(StartHotel);
 		
 		JPanel Panel1 = new JPanel();
 		Panel1.setBounds(0, 0, 1186, 563);
@@ -565,44 +526,44 @@ public class Story {
 		FindRoom1.setVisible(false);
 		FindRoom1.setLayout(null);
 		
-		JButton Room1Cups_1 = new JButton("");
-		Room1Cups_1.setIcon(new ImageIcon(Story.class.getResource("/image/Cups.png")));
-		Room1Cups_1.setFocusPainted(false);
-		Room1Cups_1.setContentAreaFilled(false);
-		Room1Cups_1.setBorderPainted(false);
-		Room1Cups_1.setBounds(768, 387, 40, 35);
-		FindRoom1.add(Room1Cups_1);
+		JButton Room1Cups = new JButton("");
+		Room1Cups.setIcon(new ImageIcon(Story.class.getResource("/image/Cups.png")));
+		Room1Cups.setFocusPainted(false);
+		Room1Cups.setContentAreaFilled(false);
+		Room1Cups.setBorderPainted(false);
+		Room1Cups.setBounds(768, 387, 40, 35);
+		FindRoom1.add(Room1Cups);
 		
-		JButton Room1UnderWear_1 = new JButton("");
-		Room1UnderWear_1.setIcon(new ImageIcon(Story.class.getResource("/image/UnderWear.png")));
-		Room1UnderWear_1.setFocusPainted(false);
-		Room1UnderWear_1.setContentAreaFilled(false);
-		Room1UnderWear_1.setBorderPainted(false);
-		Room1UnderWear_1.setBounds(891, 421, 35, 42);
-		FindRoom1.add(Room1UnderWear_1);
+		JButton Room1UnderWear = new JButton("");
+		Room1UnderWear.setIcon(new ImageIcon(Story.class.getResource("/image/UnderWear.png")));
+		Room1UnderWear.setFocusPainted(false);
+		Room1UnderWear.setContentAreaFilled(false);
+		Room1UnderWear.setBorderPainted(false);
+		Room1UnderWear.setBounds(891, 421, 35, 42);
+		FindRoom1.add(Room1UnderWear);
 		
-		JButton Room1Pill_1 = new JButton("");
-		Room1Pill_1.setIcon(new ImageIcon(Story.class.getResource("/image/Pill.png")));
-		Room1Pill_1.setFocusPainted(false);
-		Room1Pill_1.setContentAreaFilled(false);
-		Room1Pill_1.setBorderPainted(false);
-		Room1Pill_1.setBounds(655, 264, 30, 35);
-		FindRoom1.add(Room1Pill_1);
+		JButton Room1Pill = new JButton("");
+		Room1Pill.setIcon(new ImageIcon(Story.class.getResource("/image/Pill.png")));
+		Room1Pill.setFocusPainted(false);
+		Room1Pill.setContentAreaFilled(false);
+		Room1Pill.setBorderPainted(false);
+		Room1Pill.setBounds(655, 264, 30, 35);
+		FindRoom1.add(Room1Pill);
 		
-		JButton Room1Script_1 = new JButton("");
-		Room1Script_1.setIcon(new ImageIcon(Story.class.getResource("/image/Script.png")));
-		Room1Script_1.setFocusPainted(false);
-		Room1Script_1.setBorderPainted(false);
-		Room1Script_1.setBounds(849, 247, 35, 35);
-		FindRoom1.add(Room1Script_1);
+		JButton Room1Script = new JButton("");
+		Room1Script.setIcon(new ImageIcon(Story.class.getResource("/image/Script.png")));
+		Room1Script.setFocusPainted(false);
+		Room1Script.setBorderPainted(false);
+		Room1Script.setBounds(849, 247, 35, 35);
+		FindRoom1.add(Room1Script);
 		
-		JButton Room1Magazine_1 = new JButton("");
-		Room1Magazine_1.setIcon(new ImageIcon(Story.class.getResource("/image/Magazine.png")));
-		Room1Magazine_1.setFocusPainted(false);
-		Room1Magazine_1.setContentAreaFilled(false);
-		Room1Magazine_1.setBorderPainted(false);
-		Room1Magazine_1.setBounds(138, 521, 30, 42);
-		FindRoom1.add(Room1Magazine_1);
+		JButton Room1Magazine = new JButton("");
+		Room1Magazine.setIcon(new ImageIcon(Story.class.getResource("/image/Magazine.png")));
+		Room1Magazine.setFocusPainted(false);
+		Room1Magazine.setContentAreaFilled(false);
+		Room1Magazine.setBorderPainted(false);
+		Room1Magazine.setBounds(138, 521, 30, 42);
+		FindRoom1.add(Room1Magazine);
 		
 		JButton Room1Exit = new JButton("\uB098\uAC00\uAE30");
 		Room1Exit.setBounds(1105, 20, 75, 23);
@@ -1782,6 +1743,27 @@ public class Story {
 		FindRoom5.setVisible(false);
 		Room5.add(FindRoom5);
 		
+		JButton Room5Camera = new JButton("");
+		Room5Camera.setIcon(new ImageIcon(Story.class.getResource("/image/Camera.png")));
+		Room5Camera.setBorderPainted(false);
+		Room5Camera.setContentAreaFilled(false);
+		Room5Camera.setFocusPainted(false);
+		Room5Camera.setBounds(567, 277, 47, 45);
+		FindRoom5.add(Room5Camera);
+		
+		JButton Room5Schedule = new JButton("");
+		Room5Schedule.setIcon(new ImageIcon(Story.class.getResource("/image/Schedule.png")));
+		Room5Schedule.setBorderPainted(false);
+		Room5Schedule.setContentAreaFilled(false);
+		Room5Schedule.setFocusPainted(false);
+		Room5Schedule.setBounds(637, 277, 36, 45);
+		FindRoom5.add(Room5Schedule);
+		
+		JButton Room5Sign = new JButton("");
+		Room5Sign.setIcon(new ImageIcon(Story.class.getResource("/image/Sign.png")));
+		Room5Sign.setBounds(210, 270, 32, 38);
+		FindRoom5.add(Room5Sign);
+		
 		JButton Room5Alchol = new JButton("");
 		Room5Alchol.setIcon(new ImageIcon(Story.class.getResource("/image/alcohol.png")));
 		Room5Alchol.setFocusPainted(false);
@@ -2059,6 +2041,28 @@ public class Story {
 		FindRoom6.setBounds(0, 0, 1186, 563);
 		FindRoom6.setVisible(false);
 		Room6.add(FindRoom6);
+
+		
+		JButton Room6Picture = new JButton("");
+		Room6Picture.setIcon(new ImageIcon(Story.class.getResource("/image/Picture.png")));
+		Room6Picture.setBorderPainted(false);
+		Room6Picture.setContentAreaFilled(false);
+		Room6Picture.setFocusPainted(false);
+		Room6Picture.setBounds(635, 272, 51, 45);
+		FindRoom6.add(Room6Picture);
+		
+		JButton Room6Magazine = new JButton("");
+		Room6Magazine.setIcon(new ImageIcon(Story.class.getResource("/image/Magazine.png")));
+		Room6Magazine.setFocusPainted(false);
+		Room6Magazine.setContentAreaFilled(false);
+		Room6Magazine.setBorderPainted(false);
+		Room6Magazine.setBounds(837, 254, 30, 42);
+		FindRoom6.add(Room6Magazine);
+		
+		JButton Room6Sign = new JButton("");
+		Room6Sign.setIcon(new ImageIcon(Story.class.getResource("/image/Sign.png")));
+		Room6Sign.setBounds(580, 277, 32, 38);
+		FindRoom6.add(Room6Sign);
 		
 		JButton Room6Juice = new JButton("");
 		Room6Juice.setIcon(new ImageIcon(Story.class.getResource("/image/Juice.png")));
@@ -2306,6 +2310,38 @@ public class Story {
 		FindRoom7.setBounds(0, 0, 1186, 563);
 		FindRoom7.setVisible(false);
 		Room7.add(FindRoom7);
+		
+		JButton Room7Telescope = new JButton("");
+		Room7Telescope.setIcon(new ImageIcon(Story.class.getResource("/image/Telescope.png")));
+		Room7Telescope.setFocusPainted(false);
+		Room7Telescope.setContentAreaFilled(false);
+		Room7Telescope.setBorderPainted(false);
+		Room7Telescope.setBounds(796, 423, 53, 49);
+		FindRoom7.add(Room7Telescope);
+		
+		JButton Room7Bag = new JButton("");
+		Room7Bag.setIcon(new ImageIcon(Story.class.getResource("/image/Bag.png")));
+		Room7Bag.setFocusPainted(false);
+		Room7Bag.setContentAreaFilled(false);
+		Room7Bag.setBorderPainted(false);
+		Room7Bag.setBounds(149, 508, 47, 45);
+		FindRoom7.add(Room7Bag);
+
+		JButton Room7Schedule = new JButton("");
+		Room7Schedule.setIcon(new ImageIcon(Story.class.getResource("/image/Schedule.png")));
+		Room7Schedule.setBorderPainted(false);
+		Room7Schedule.setContentAreaFilled(false);
+		Room7Schedule.setFocusPainted(false);
+		Room7Schedule.setBounds(637, 277, 36, 45);
+		FindRoom7.add(Room7Schedule);
+
+		JButton Room7Magazine = new JButton("");
+		Room7Magazine.setIcon(new ImageIcon(Story.class.getResource("/image/Magazine.png")));
+		Room7Magazine.setFocusPainted(false);
+		Room7Magazine.setContentAreaFilled(false);
+		Room7Magazine.setBorderPainted(false);
+		Room7Magazine.setBounds(255, 255, 30, 42);
+		FindRoom7.add(Room7Magazine);
 		
 		JButton Room7Sock = new JButton("");
 		Room7Sock.setIcon(new ImageIcon(Story.class.getResource("/image/Sock.png")));
@@ -3398,6 +3434,17 @@ public class Story {
 		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_1.setIcon(new ImageIcon(Story.class.getResource("/image/SevenDoors.png")));
 		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_1.setBounds(0, 0, 1186, 563);
 		SevenDoors.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_1);
+
+		StartBtn.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				TitlePanel.setVisible(false);
+				Panel1.setVisible(true);
+				
+			}
+			
+		});
 		NextBtn1.addActionListener(new ActionListener() {
 
 			@Override
