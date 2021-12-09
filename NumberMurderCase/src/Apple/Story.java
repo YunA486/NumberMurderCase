@@ -52,11 +52,6 @@ public class Story {
 		frame.getContentPane().add(TitlePanel);
 		TitlePanel.setLayout(null);
 		
-		JButton btnNewButton = new JButton("");
-		btnNewButton.setIcon(new ImageIcon(Story.class.getResource("/image/monry.png")));
-		btnNewButton.setBounds(108, 156, 95, 35);
-		TitlePanel.add(btnNewButton);
-		
 		JLabel Title = new JLabel("Number Murder Case");
 		Title.setForeground(Color.WHITE);
 		Title.setFont(new Font("Baskerville BT", Font.BOLD | Font.ITALIC, 60));
@@ -2789,135 +2784,170 @@ public class Story {
 		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10.setIcon(new ImageIcon(Story.class.getResource("/image/160.png")));
 		Panel160.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10);
 		
-		JPanel Panel160_1 = new JPanel();
-		Panel160_1.setLayout(null);
-		Panel160_1.setBounds(0, 0, 1186, 563);
-		Success.add(Panel160_1);
+		JPanel Panel161 = new JPanel();
+		Panel161.setLayout(null);
+		Panel161.setBounds(0, 0, 1186, 563);
+		Success.add(Panel161);
 		
-		JButton NextBtn160_1 = new JButton("");
-		NextBtn160_1.setBounds(1147, 20, 27, 23);
-		Panel160_1.add(NextBtn160_1);
+		JButton NextBtn161 = new JButton("");
+		NextBtn161.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn161.setBounds(1147, 20, 27, 23);
+		Panel161.add(NextBtn161);
 		
 		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_1 = new JLabel("");
 		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_1.setBounds(0, 0, 1186, 563);
-		Panel160_1.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_1);
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_1.setIcon(new ImageIcon(Story.class.getResource("/image/161.png")));
+		Panel161.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_1);
 		
-		JPanel Panel160_2 = new JPanel();
-		Panel160_2.setLayout(null);
-		Panel160_2.setBounds(0, 0, 1186, 563);
-		Success.add(Panel160_2);
+		JPanel Panel162 = new JPanel();
+		Panel162.setLayout(null);
+		Panel162.setBounds(0, 0, 1186, 563);
+		Success.add(Panel162);
 		
-		JButton NextBtn160_2 = new JButton("");
-		NextBtn160_2.setBounds(1147, 20, 27, 23);
-		Panel160_2.add(NextBtn160_2);
+		JButton NextBtn162 = new JButton("");
+		NextBtn162.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn162.setBounds(1147, 20, 27, 23);
+		Panel162.add(NextBtn162);
 		
 		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_2 = new JLabel("");
 		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_2.setBounds(0, 0, 1186, 563);
-		Panel160_2.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_2);
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_2.setIcon(new ImageIcon(Story.class.getResource("/image/162.png")));
+		Panel162.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_2);
 		
-		JPanel Panel160_3 = new JPanel();
-		Panel160_3.setLayout(null);
-		Panel160_3.setBounds(0, 0, 1186, 563);
-		Success.add(Panel160_3);
+		JPanel Panel163 = new JPanel();
+		Panel163.setLayout(null);
+		Panel163.setBounds(0, 0, 1186, 563);
+		Success.add(Panel163);
 		
-		JButton NextBtn160_3 = new JButton("");
-		NextBtn160_3.setBounds(1147, 20, 27, 23);
-		Panel160_3.add(NextBtn160_3);
+		JButton NextBtn163 = new JButton("");
+		NextBtn163.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn163.setBounds(1147, 20, 27, 23);
+		Panel163.add(NextBtn163);
 		
 		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_3 = new JLabel("");
 		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_3.setBounds(0, 0, 1186, 563);
-		Panel160_3.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_3);
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_3.setIcon(new ImageIcon(Story.class.getResource("/image/163.png")));
+		Panel163.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_3);
 		
-		JPanel Panel160_4 = new JPanel();
-		Panel160_4.setLayout(null);
-		Panel160_4.setBounds(0, 0, 1186, 563);
-		Success.add(Panel160_4);
+		JPanel Panel164 = new JPanel();
+		Panel164.setLayout(null);
+		Panel164.setBounds(0, 0, 1186, 563);
+		Success.add(Panel164);
 		
-		JButton NextBtn160_4 = new JButton("");
-		NextBtn160_4.setBounds(1147, 20, 27, 23);
-		Panel160_4.add(NextBtn160_4);
+		JButton NextBtn164 = new JButton("");
+		NextBtn164.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn164.setBounds(1147, 20, 27, 23);
+		Panel164.add(NextBtn164);
 		
 		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_4 = new JLabel("");
 		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_4.setBounds(0, 0, 1186, 563);
-		Panel160_4.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_4);
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_4.setIcon(new ImageIcon(Story.class.getResource("/image/164.png")));
+		Panel164.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_4);
 		
-		JPanel Panel160_5 = new JPanel();
-		Panel160_5.setLayout(null);
-		Panel160_5.setBounds(0, 0, 1186, 563);
-		Success.add(Panel160_5);
+		JPanel Panel165 = new JPanel();
+		Panel165.setLayout(null);
+		Panel165.setBounds(0, 0, 1186, 563);
+		Success.add(Panel165);
 		
-		JButton NextBtn160_5 = new JButton("");
-		NextBtn160_5.setBounds(1147, 20, 27, 23);
-		Panel160_5.add(NextBtn160_5);
+		JButton NextBtn165 = new JButton("");
+		NextBtn165.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn165.setBounds(1147, 20, 27, 23);
+		Panel165.add(NextBtn165);
 		
 		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_5 = new JLabel("");
 		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_5.setBounds(0, 0, 1186, 563);
-		Panel160_5.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_5);
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_5.setIcon(new ImageIcon(Story.class.getResource("/image/165.png")));
+		Panel165.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_5);
 		
-		JPanel Panel160_6 = new JPanel();
-		Panel160_6.setLayout(null);
-		Panel160_6.setBounds(0, 0, 1186, 563);
-		Success.add(Panel160_6);
+		JPanel Panel166 = new JPanel();
+		Panel166.setLayout(null);
+		Panel166.setBounds(0, 0, 1186, 563);
+		Success.add(Panel166);
 		
-		JButton NextBtn160_6 = new JButton("");
-		NextBtn160_6.setBounds(1147, 20, 27, 23);
-		Panel160_6.add(NextBtn160_6);
+		JButton NextBtn166 = new JButton("");
+		NextBtn166.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn166.setBounds(1147, 20, 27, 23);
+		Panel166.add(NextBtn166);
 		
 		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_6 = new JLabel("");
 		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_6.setBounds(0, 0, 1186, 563);
-		Panel160_6.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_6);
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_6.setIcon(new ImageIcon(Story.class.getResource("/image/166.png")));
+		Panel166.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_6);
 		
-		JPanel Panel160_7 = new JPanel();
-		Panel160_7.setLayout(null);
-		Panel160_7.setBounds(0, 0, 1186, 563);
-		Success.add(Panel160_7);
+		JPanel Panel167 = new JPanel();
+		Panel167.setLayout(null);
+		Panel167.setBounds(0, 0, 1186, 563);
+		Success.add(Panel167);
 		
-		JButton NextBtn160_7 = new JButton("");
-		NextBtn160_7.setBounds(1147, 20, 27, 23);
-		Panel160_7.add(NextBtn160_7);
+		JButton NextBtn167 = new JButton("");
+		NextBtn167.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn167.setBounds(1147, 20, 27, 23);
+		Panel167.add(NextBtn167);
 		
 		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_7 = new JLabel("");
 		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_7.setBounds(0, 0, 1186, 563);
-		Panel160_7.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_7);
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_7.setIcon(new ImageIcon(Story.class.getResource("/image/167.png")));
+		Panel167.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_7);
 		
-		JPanel Panel160_8 = new JPanel();
-		Panel160_8.setLayout(null);
-		Panel160_8.setBounds(0, 0, 1186, 563);
-		Success.add(Panel160_8);
+		JPanel Panel168 = new JPanel();
+		Panel168.setLayout(null);
+		Panel168.setBounds(0, 0, 1186, 563);
+		Success.add(Panel168);
 		
-		JButton NextBtn160_8 = new JButton("");
-		NextBtn160_8.setBounds(1147, 20, 27, 23);
-		Panel160_8.add(NextBtn160_8);
+		JButton NextBtn168 = new JButton("");
+		NextBtn168.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn168.setBounds(1147, 20, 27, 23);
+		Panel168.add(NextBtn168);
 		
 		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_8 = new JLabel("");
 		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_8.setBounds(0, 0, 1186, 563);
-		Panel160_8.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_8);
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_8.setIcon(new ImageIcon(Story.class.getResource("/image/168.png")));
+		Panel168.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_8);
 		
-		JPanel Panel160_9 = new JPanel();
-		Panel160_9.setLayout(null);
-		Panel160_9.setBounds(0, 0, 1186, 563);
-		Success.add(Panel160_9);
+		JPanel Panel169 = new JPanel();
+		Panel169.setLayout(null);
+		Panel169.setBounds(0, 0, 1186, 563);
+		Success.add(Panel169);
 		
-		JButton NextBtn160_9 = new JButton("");
-		NextBtn160_9.setBounds(1147, 20, 27, 23);
-		Panel160_9.add(NextBtn160_9);
+		JButton NextBtn169 = new JButton("");
+		NextBtn169.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn169.setBounds(1147, 20, 27, 23);
+		Panel169.add(NextBtn169);
 		
 		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_9 = new JLabel("");
 		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_9.setBounds(0, 0, 1186, 563);
-		Panel160_9.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_9);
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_9.setIcon(new ImageIcon(Story.class.getResource("/image/169.png")));
+		Panel169.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_9);
 		
-		JPanel Panel160_10 = new JPanel();
-		Panel160_10.setLayout(null);
-		Panel160_10.setBounds(0, 0, 1186, 563);
-		Success.add(Panel160_10);
+		JPanel Panel170 = new JPanel();
+		Panel170.setLayout(null);
+		Panel170.setBounds(0, 0, 1186, 563);
+		Success.add(Panel170);
 		
-		JButton NextBtn160_10 = new JButton("");
-		NextBtn160_10.setBounds(1147, 20, 27, 23);
-		Panel160_10.add(NextBtn160_10);
+		JButton NextBtn170 = new JButton("");
+		NextBtn170.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn170.setBounds(1147, 20, 27, 23);
+		Panel170.add(NextBtn170);
 		
 		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_10 = new JLabel("");
 		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_10.setBounds(0, 0, 1186, 563);
-		Panel160_10.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_10);
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_10.setIcon(new ImageIcon(Story.class.getResource("/image/170.png")));
+		Panel170.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_10);
+		
+		JPanel Panel171 = new JPanel();
+		Panel171.setLayout(null);
+		Panel171.setBounds(0, 0, 1186, 563);
+		Success.add(Panel171);
+		
+		JButton NextBtn171 = new JButton("");
+		NextBtn171.setIcon(new ImageIcon(Story.class.getResource("/image/arrow.png")));
+		NextBtn171.setBounds(1147, 20, 27, 23);
+		Panel171.add(NextBtn171);
+		
+		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_11 = new JLabel("");
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_11.setBounds(0, 0, 1186, 563);
+		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_11.setIcon(new ImageIcon(Story.class.getResource("/image/171.png")));
+		Panel171.add(lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_2_1_10_10_10_11);
 		
 		JPanel Vic = new JPanel();
 		Vic.setLayout(null);
@@ -4430,20 +4460,7 @@ public class Story {
 			
 		});
 		
-		// 누르면 뜨게..
-		button.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, "dsfsdf", "SUCCESS!!", 0);	// 창이 어디에 뜨게 할지, 메시지, 창 제목, 아이콘
-			}
-			
-//			@Override
-//			public void actionPerformed(ActionEvent e) {
-//				new GuessNum();
-//			}
-			
-		});
+		
 		
 		
 	}
