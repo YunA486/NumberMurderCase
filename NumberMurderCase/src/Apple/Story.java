@@ -199,6 +199,10 @@ public class Story {
 		frame.getContentPane().add(Room1);
 		Room1.setVisible(false);
 		Room1.setLayout(null);
+		
+		JButton Room1Skip = new JButton("Skip");
+		Room1Skip.setBounds(1060, 20, 65, 23);
+		Room1.add(Room1Skip);
 
 		JPanel Panel7 = new JPanel();
 		Panel7.setBounds(0, 0, 1186, 563);
@@ -630,6 +634,10 @@ public class Story {
 		frame.getContentPane().add(Room2);
 		Room2.setVisible(false);
 		Room2.setLayout(null);
+		
+		JButton Room2Skip = new JButton("Skip");
+		Room2Skip.setBounds(1060, 20, 65, 23);
+		Room2.add(Room2Skip);
 
 		JPanel Panel27 = new JPanel();
 		Panel27.setLayout(null);
@@ -994,6 +1002,10 @@ public class Story {
 		frame.getContentPane().add(Room3);
 		Room3.setVisible(false);
 		Room3.setLayout(null);
+		
+		JButton Room3Skip = new JButton("Skip");
+		Room3Skip.setBounds(1060, 20, 65, 23);
+		Room3.add(Room3Skip);
 
 		JPanel Panel48 = new JPanel();
 		Panel48.setLayout(null);
@@ -1425,6 +1437,10 @@ public class Story {
 		Room4.setBounds(0, 0, 1186, 563);
 		Room4.setVisible(false);
 		frame.getContentPane().add(Room4);
+		
+		JButton Room4Skip = new JButton("Skip");
+		Room4Skip.setBounds(1060, 20, 65, 23);
+		Room4.add(Room4Skip);
 
 		JPanel Panel115 = new JPanel();
 		Panel115.setLayout(null);
@@ -1653,6 +1669,10 @@ public class Story {
 		Room5.setBounds(0, 0, 1186, 563);
 		Room5.setVisible(false);
 		frame.getContentPane().add(Room5);
+		
+		JButton Room5Skip = new JButton("Skip");
+		Room5Skip.setBounds(1060, 20, 65, 23);
+		Room5.add(Room5Skip);
 
 		JPanel Panel63 = new JPanel();
 		Panel63.setLayout(null);
@@ -2160,6 +2180,10 @@ public class Story {
 		Room6.setVisible(false);
 		frame.getContentPane().add(Room6);
 		Room6.setLayout(null);
+		
+		JButton Room6Skip = new JButton("Skip");
+		Room6Skip.setBounds(1060, 20, 65, 23);
+		Room6.add(Room6Skip);
 
 		JPanel Panel86 = new JPanel();
 		Panel86.setLayout(null);
@@ -2493,6 +2517,10 @@ public class Story {
 		frame.getContentPane().add(Room7);
 		Room7.setVisible(false);
 		Room7.setLayout(null);
+		
+		JButton Room7Skip = new JButton("Skip");
+		Room7Skip.setBounds(1060, 20, 65, 23);
+		Room7.add(Room7Skip);
 
 		JPanel Panel101 = new JPanel();
 		Panel101.setLayout(null);
@@ -3021,10 +3049,16 @@ public class Story {
 		GameOver_1.setVisible(false);
 		Suicide.add(GameOver_1);
 
-		JButton Retry_1 = new JButton("Retry");
+		JButton Retry_1 = new JButton("END");
 		Retry_1.setFont(new Font("Baskerville BT", Font.BOLD, 30));
 		Retry_1.setBounds(523, 251, 127, 54);
 		Retry_1.setVisible(false);
+		
+		JLabel lblNewLabel_9_1 = new JLabel("Game Over");
+		lblNewLabel_9_1.setForeground(Color.WHITE);
+		lblNewLabel_9_1.setFont(new Font("Baskerville BT", Font.BOLD, 50));
+		lblNewLabel_9_1.setBounds(443, 155, 293, 92);
+		GameOver_1.add(lblNewLabel_9_1);
 		GameOver_1.add(Retry_1);
 
 		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_1_2 = new JLabel("");
@@ -3926,11 +3960,17 @@ public class Story {
 		GameOver.setBounds(0, 0, 1186, 563);
 		GameOver.setVisible(false);
 		Defeat.add(GameOver);
+		
+		JLabel lblNewLabel_9 = new JLabel("Game Over");
+		lblNewLabel_9.setForeground(Color.WHITE);
+		lblNewLabel_9.setFont(new Font("Baskerville BT", Font.BOLD, 50));
+		lblNewLabel_9.setBounds(443, 155, 293, 92);
+		GameOver.add(lblNewLabel_9);
 
-		JButton Retry = new JButton("Retry");
-		Retry.setFont(new Font("Baskerville BT", Font.BOLD, 30));
-		Retry.setBounds(513, 251, 127, 54);
-		GameOver.add(Retry);
+		JButton END = new JButton("END");
+		END.setFont(new Font("Baskerville BT", Font.BOLD, 30));
+		END.setBounds(523, 251, 130, 54);
+		GameOver.add(END);
 
 		JLabel lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_1 = new JLabel("");
 		lblNewLabel_6_1_12_7_1_21_1_1_11_1_13_2_2_1_1
@@ -4046,6 +4086,7 @@ public class Story {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				Panel6.setVisible(false);
+				Room1Skip.setVisible(true);
 				Room1.setVisible(true);
 				Panel7.setVisible(true);
 
@@ -4057,6 +4098,7 @@ public class Story {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				Panel6.setVisible(false);
+				Room2Skip.setVisible(true);
 				Room2.setVisible(true);
 				Panel27.setVisible(true);
 			}
@@ -4067,6 +4109,7 @@ public class Story {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				Panel6.setVisible(false);
+				Room3Skip.setVisible(true);
 				Room3.setVisible(true);
 				Panel48.setVisible(true);
 			}
@@ -4077,6 +4120,7 @@ public class Story {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				Panel6.setVisible(false);
+				Room4Skip.setVisible(true);
 				Room4.setVisible(true);
 				Panel115.setVisible(true);
 			}
@@ -4087,6 +4131,7 @@ public class Story {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				Panel6.setVisible(false);
+				Room5Skip.setVisible(true);
 				Room5.setVisible(true);
 				Panel63.setVisible(true);
 			}
@@ -4097,6 +4142,7 @@ public class Story {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				Panel6.setVisible(false);
+				Room6Skip.setVisible(true);
 				Room6.setVisible(true);
 				Panel86.setVisible(true);
 			}
@@ -4107,6 +4153,7 @@ public class Story {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				Panel6.setVisible(false);
+				Room7Skip.setVisible(true);
 				Room7.setVisible(true);
 				Panel101.setVisible(true);
 			}
@@ -4317,6 +4364,7 @@ public class Story {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				Panel26.setVisible(false);
+				Room1Skip.setVisible(false);
 				FindRoom1.setVisible(true);
 
 			}
@@ -4538,6 +4586,7 @@ public class Story {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				Panel47.setVisible(false);
+				Room2Skip.setVisible(false);
 				FindRoom2.setVisible(true);
 
 			}
@@ -4700,6 +4749,7 @@ public class Story {
 			public void actionPerformed(ActionEvent e) {
 				Panel62.setVisible(false);
 				FindRoom3.setVisible(true);
+				Room3Skip.setVisible(false);
 
 			}
 
@@ -4761,7 +4811,7 @@ public class Story {
 			public void actionPerformed(ActionEvent e) {
 				Panel119.setVisible(false);
 				FindRoom4.setVisible(true);
-
+				Room4Skip.setVisible(false);
 			}
 
 		});
@@ -5003,7 +5053,7 @@ public class Story {
 			public void actionPerformed(ActionEvent e) {
 				Panel85.setVisible(false);
 				FindRoom5.setVisible(true);
-
+				Room5Skip.setVisible(false);
 			}
 
 		});
@@ -5164,7 +5214,7 @@ public class Story {
 			public void actionPerformed(ActionEvent e) {
 				Panel100.setVisible(false);
 				FindRoom6.setVisible(true);
-
+				Room6Skip.setVisible(false);
 			}
 
 		});
@@ -5316,7 +5366,7 @@ public class Story {
 			public void actionPerformed(ActionEvent e) {
 				Panel114.setVisible(false);
 				FindRoom7.setVisible(true);
-
+				Room7Skip.setVisible(false);
 			}
 
 		});
@@ -6055,23 +6105,27 @@ public class Story {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				Room8.setVisible(false);
-				Suicide.setVisible(false);
-				SevenDoors.setVisible(false);
-				Panel6.setVisible(true);
+//				Room8.setVisible(false);
+//				Suicide.setVisible(false);
+//				SevenDoors.setVisible(false);
+//				Panel6.setVisible(true);
+
+				System.exit(0);
 
 			}
 
 		});
 
-		Retry.addActionListener(new ActionListener() {
+		END.addActionListener(new ActionListener() {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				Room8.setVisible(false);
-				Defeat.setVisible(false);
-				SevenDoors.setVisible(false);
-				Panel6.setVisible(true);
+//				Room8.setVisible(false);
+//				Defeat.setVisible(false);
+//				SevenDoors.setVisible(false);
+//				Panel6.setVisible(true);
+
+				System.exit(0);
 
 			}
 
@@ -6084,6 +6138,196 @@ public class Story {
 				SevenDoors.setVisible(false);
 				Room8.setVisible(false);
 				Panel6.setVisible(true);
+
+			}
+
+		});
+		
+		Room1Skip.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Room1Skip.setVisible(false);
+				Panel7.setVisible(false);
+				Panel8.setVisible(false);
+				Panel9.setVisible(false);
+				Panel10.setVisible(false);
+				Panel11.setVisible(false);
+				Panel12.setVisible(false);
+				Panel13.setVisible(false);
+				Panel14.setVisible(false);
+				Panel15.setVisible(false);
+				Panel16.setVisible(false);
+				Panel17.setVisible(false);
+				Panel18.setVisible(false);
+				Panel19.setVisible(false);
+				Panel20.setVisible(false);
+				Panel21.setVisible(false);
+				Panel22.setVisible(false);
+				Panel23.setVisible(false);
+				Panel24.setVisible(false);
+				Panel25.setVisible(false);
+				Panel26.setVisible(false);
+				FindRoom1.setVisible(true);
+
+			}
+
+		});
+		
+		Room2Skip.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Room2Skip.setVisible(false);
+				Panel27.setVisible(false);
+				Panel28.setVisible(false);
+				Panel29.setVisible(false);
+				Panel30.setVisible(false);
+				Panel31.setVisible(false);
+				Panel32.setVisible(false);
+				Panel33.setVisible(false);
+				Panel34.setVisible(false);
+				Panel35.setVisible(false);
+				Panel36.setVisible(false);
+				Panel37.setVisible(false);
+				Panel38.setVisible(false);
+				Panel39.setVisible(false);
+				Panel40.setVisible(false);
+				Panel41.setVisible(false);
+				Panel42.setVisible(false);
+				Panel43.setVisible(false);
+				Panel44.setVisible(false);
+				Panel45.setVisible(false);
+				Panel46.setVisible(false);
+				Panel47.setVisible(false);
+				FindRoom2.setVisible(true);
+
+			}
+
+		});
+		
+		Room3Skip.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Room3Skip.setVisible(false);
+				Panel48.setVisible(false);
+				Panel49.setVisible(false);
+				Panel50.setVisible(false);
+				Panel51.setVisible(false);
+				Panel52.setVisible(false);
+				Panel53.setVisible(false);
+				Panel54.setVisible(false);
+				Panel55.setVisible(false);
+				Panel56.setVisible(false);
+				Panel57.setVisible(false);
+				Panel58.setVisible(false);
+				Panel59.setVisible(false);
+				Panel60.setVisible(false);
+				Panel61.setVisible(false);
+				Panel62.setVisible(false);
+				FindRoom3.setVisible(true);
+
+			}
+
+		});
+		
+		Room4Skip.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Room4Skip.setVisible(false);
+				Panel115.setVisible(false);
+				Panel116.setVisible(false);
+				Panel117.setVisible(false);
+				Panel118.setVisible(false);
+				Panel119.setVisible(false);
+				FindRoom4.setVisible(true);
+
+			}
+
+		});
+		
+		Room5Skip.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Room5Skip.setVisible(false);
+				Panel63.setVisible(false);
+				Panel64.setVisible(false);
+				Panel65.setVisible(false);
+				Panel66.setVisible(false);
+				Panel67.setVisible(false);
+				Panel68.setVisible(false);
+				Panel69.setVisible(false);
+				Panel70.setVisible(false);
+				Panel71.setVisible(false);
+				Panel72.setVisible(false);
+				Panel73.setVisible(false);
+				Panel74.setVisible(false);
+				Panel75.setVisible(false);
+				Panel76.setVisible(false);
+				Panel77.setVisible(false);
+				Panel78.setVisible(false);
+				Panel79.setVisible(false);
+				Panel80.setVisible(false);
+				Panel81.setVisible(false);
+				Panel82.setVisible(false);
+				Panel83.setVisible(false);
+				Panel84.setVisible(false);
+				Panel85.setVisible(false);
+				FindRoom5.setVisible(true);
+
+			}
+
+		});
+		
+		Room6Skip.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Room6Skip.setVisible(false);
+				Panel86.setVisible(false);
+				Panel87.setVisible(false);
+				Panel88.setVisible(false);
+				Panel89.setVisible(false);
+				Panel90.setVisible(false);
+				Panel91.setVisible(false);
+				Panel92.setVisible(false);
+				Panel93.setVisible(false);
+				Panel94.setVisible(false);
+				Panel95.setVisible(false);
+				Panel96.setVisible(false);
+				Panel97.setVisible(false);
+				Panel98.setVisible(false);
+				Panel99.setVisible(false);
+				Panel100.setVisible(false);
+				FindRoom6.setVisible(true);
+
+			}
+
+		});
+		
+		Room7Skip.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Room7Skip.setVisible(false);
+				Panel101.setVisible(false);
+				Panel102.setVisible(false);
+				Panel103.setVisible(false);
+				Panel104.setVisible(false);
+				Panel105.setVisible(false);
+				Panel106.setVisible(false);
+				Panel107.setVisible(false);
+				Panel108.setVisible(false);
+				Panel109.setVisible(false);
+				Panel110.setVisible(false);
+				Panel111.setVisible(false);
+				Panel112.setVisible(false);
+				Panel113.setVisible(false);
+				Panel114.setVisible(false);
+				FindRoom7.setVisible(true);
 
 			}
 
